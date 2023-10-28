@@ -917,6 +917,132 @@
         "name": "charPos3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/itemKnife.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "itemKnife",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Down/Adli down 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Down\\Adli down 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Down/Adli down 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Down\\Adli down 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Down/Adli down 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Down\\Adli down 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Side/Adli side 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Side\\Adli side 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Side/Adli side 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Side\\Adli side 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Side/Adli side 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Side\\Adli side 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Up/Adli up 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Up\\Adli up 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Up/Adli up 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Up\\Adli up 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Up/Adli up 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Up\\Adli up 3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
