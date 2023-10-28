@@ -1462,28 +1462,28 @@
             },
             {
               "type": "string",
-              "value": "Baik abang."
+              "value": "Baik, abang."
             },
             {
               "type": "string",
-              "value": "Alamak, sampah dalam tong sampah masih belum dibuang. Apakah yang patut Adli lakukan?​"
+              "value": "Alamak, tong sampah ini sudah penuh! Apakah yang patut Adli lakukan?​"
             },
             {
               "type": "string",
-              "value": "Ehh, kenapa mainan ini terbiar saja disini?"
+              "value": "Eh, kenapa mainan ini terbiar saja di sini?"
             },
             {
               "type": "string",
-              "value": "Wahh, pisau itu seperti pisau yang selalu digunakan oleh askar dalam latihan. Adli mahu tengok dengan lebih dekat. Tapi ibu tidak benarkan Adli pegang."
+              "value": "Wah, pisau itu seperti pisau yang selalu digunakan oleh askar dalam latihan. Adli mahu melihat pisau itu dengan lebih dekat. Tapi ibu tidak benarkan Adli pegang pisau itu."
             },
             {
               "folded": true,
               "type": "string",
-              "value": "Hmm, nampaknya abang sedang mencari  alat kawalan jauh televisyen ?​"
+              "value": "Hmm, nampaknya abang sedang mencari alat kawalan jauh televisyen."
             },
             {
               "type": "string",
-              "value": "Wahh! ada orang jual aiskrim di seberang jalan. Adli teringin membeli aiskrim itu, tetapi ibu dan ayah tidak benarkan Adli untuk keluar dari rumah."
+              "value": "Wah, ada orang jual aiskrim di seberang jalan. Adli teringin membeli aiskrim itu, tetapi ibu dan ayah tidak benarkan Adli untuk keluar dari rumah."
             },
             {
               "folded": true,
@@ -1506,12 +1506,12 @@
             },
             {
               "type": "string",
-              "value": " Siapakah yang Adli perlu menghubungi pada masa tersebut?"
+              "value": " Siapakah yang Adli perlu hubungi pada masa tersebut?"
             },
             {
               "folded": true,
               "type": "string",
-              "value": "Ibu tolong Adli dan abang, ada pencuri di luar rumah!"
+              "value": "Ibu, tolong Adli dan abang! Ada pencuri di luar rumah!"
             },
             {
               "folded": true,
@@ -1520,12 +1520,12 @@
             },
             {
               "type": "string",
-              "value": "Selamat pagi Encik, saya ingin memaklumkan bahawa saya melihat kelibat pencuri di luar rumah saya."
+              "value": "Selamat pagi encik. Saya ingin memaklumkan bahawa saya melihat kelibat pencuri di luar rumah saya."
             },
             {
               "folded": true,
               "type": "string",
-              "value": "Abang, tolong Adli, ada pencuri di luar rumah kita !"
+              "value": "Abang, tolong Adli! ada pencuri di luar rumah kita!"
             },
             {
               "type": "string",
@@ -1533,7 +1533,7 @@
             },
             {
               "type": "string",
-              "value": "Adakah Adli perlu menutup langsir tingkap bagi mengelakan pencuri masuk ke rumah?"
+              "value": "Adakah Adli perlu menutup langsir tingkap bagi mengelakkan pencuri masuk ke rumah?"
             },
             {
               "persistentUuid": "4706e4e6-d08c-40ef-b89c-085c3194dfe6",
@@ -1543,12 +1543,12 @@
             {
               "persistentUuid": "282d7c0b-0d67-4449-9195-a32e3a147d21",
               "type": "string",
-              "value": "Lebih baik saya bersembunyi dibawah katil agar pencuri itu tidak menyedari akan kehadiran saya."
+              "value": "Lebih baik saya bersembunyi di bawah katil agar pencuri itu tidak menyedari akan kehadiran saya."
             },
             {
               "persistentUuid": "ad6cfaff-a1a8-47cc-9954-718d3a977628",
               "type": "string",
-              "value": "Alamak!! Pencuri itu telah nampak saya, saya perlu beredar dari sini."
+              "value": "Alamak! Pencuri itu telah nampak saya. Saya perlu berlari dari sini."
             },
             {
               "persistentUuid": "2df4ebfe-3948-4006-ac62-93f40c1d4997",
@@ -1573,6 +1573,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "azhar",
           "persistentUuid": "93673b10-b2d5-4d73-a6ce-8210ae9095fe",
           "type": "array",
@@ -1583,15 +1584,15 @@
             },
             {
               "type": "string",
-              "value": "Boleh saja, tapi selepas Adli selesai membuat kerja sekolah."
+              "value": "Boleh saja, tapi selepas Adli selesai membuat kerja sekolah, ya."
             },
             {
               "type": "string",
-              "value": "Adli sudah selesaikan kerja sekolah kan? mari kita menonton filem Leftenan Adnan.​"
+              "value": "Adli sudah siapkan kerja sekolah? Jika sudah, mari kita menonton filem Leftenan Adnan.​"
             },
             {
               "type": "string",
-              "value": "Mana? Mana? Kita perlu lakukan sesuatu sebelum pencuri itu bertindak. Abang akan ke rumah jiran untuk minta bantuan. Adli harus sembunyi di bawah katil supaya tidak dijumpai oleh pencuri.​"
+              "value": "Di mana? Kita perlu lakukan sesuatu sebelum pencuri itu bertindak. Abang akan ke rumah jiran untuk minta bantuan. Adli harus sembunyi di bawah katil supaya tidak dijumpai oleh pencuri.​"
             },
             {
               "folded": true,
@@ -1655,12 +1656,12 @@
             {
               "persistentUuid": "0f88c869-80b0-4f76-83cd-07c5a9cc87d6",
               "type": "string",
-              "value": "Mengambil pisau dan simpan di tempat yang sepatutnya."
+              "value": "Mengambil dan menyimpan pisau tersebut di tempat yang sepatutnya."
             },
             {
               "persistentUuid": "c48c4ce6-41b2-4699-b6a5-2a1882cba020",
               "type": "string",
-              "value": "Menolong abangnya mencari alat kawalan jauh"
+              "value": "Menolong abangnya mencari alat kawalan jauh."
             },
             {
               "persistentUuid": "a9f762ab-5ef3-4d2d-8c7f-e41f2a6b7e6e",
@@ -1670,12 +1671,12 @@
             {
               "persistentUuid": "8f2c2821-7c25-4c46-9819-cb7b2e9ba1ea",
               "type": "string",
-              "value": "Kunci pagar tersebut"
+              "value": "Mengunci pintu pagar tersebut."
             },
             {
               "persistentUuid": "0229f2a2-46a4-47b6-a869-8de5bc48e4e4",
               "type": "string",
-              "value": "Keluar untuk membeli aiskrim."
+              "value": "Keluar dari rumah untuk membeli aiskrim."
             },
             {
               "persistentUuid": "952fcf82-5186-4dd6-b6ed-5adf7d07e84c",
@@ -1685,12 +1686,12 @@
             {
               "persistentUuid": "ebe89ccf-6b22-456a-bbfb-264bc590afac",
               "type": "string",
-              "value": "Sambung menerokai."
+              "value": "Adli mahu membuat kerja lain dahulu."
             },
             {
               "persistentUuid": "d6809af1-a738-43c1-81cb-581878218fa0",
               "type": "string",
-              "value": "Mengunci pintu tersebut."
+              "value": "Mengunci pintu rumah."
             },
             {
               "persistentUuid": "a3f7aa3f-7105-44f6-850c-9d7442599cfe",
@@ -1750,7 +1751,7 @@
             {
               "persistentUuid": "f357675a-fd43-4f8a-9e07-ca18d6d4cef4",
               "type": "string",
-              "value": "Masih belum masanya."
+              "value": "Tidak bersembunyi."
             },
             {
               "persistentUuid": "4f06775a-26d8-4ede-b3b6-1fae4caa806d",
@@ -1765,6 +1766,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "ibubapa",
           "persistentUuid": "5fec818e-2477-400a-861f-58beb79b787e",
           "type": "array",
@@ -1775,15 +1777,24 @@
             },
             {
               "type": "string",
-              "value": "Adli, Azhar, mari sini sekejap. Ibu dan ayah nak keluar ke pasar. Ingat pesan ibu, Adli dan Azhar jaga diri baik-baik. Jangan keluar rumah sebarangan. Azhar tolong jaga adik baik-baik"
+              "value": "Adli, Azhar, mari sini sekejap. Ibu dan ayah hendak keluar ke pasar. Adli dan Azhar, ingat ya pesan ibu. Jaga diri baik-baik. Jangan keluar rumah sebarangan. Azhar tolong jaga adik baik-baik, ya."
             },
             {
               "type": "string",
               "value": "Maaf Adli, ibu tidak dapat mendengar suara Adli dengan jelas. Nanti ibu telefon Adli semula."
+            },
+            {
+              "type": "string",
+              "value": "Lega hati ibu. Ibu bangga dengan Adli dan Azhar. "
+            },
+            {
+              "type": "string",
+              "value": "Ayah juga bangga dengan anak-anak lelaki ayah."
             }
           ]
         },
         {
+          "folded": true,
           "name": "narrator",
           "persistentUuid": "9e885c69-4edf-4536-b603-8c789a5abf84",
           "type": "array",
@@ -1810,10 +1821,51 @@
               "persistentUuid": "4f89cc36-96a2-4664-8adc-30dbd70a3b74",
               "type": "string",
               "value": "Pencuri berjaya memasuki rumah Adli melalui tingkap bilik."
+            },
+            {
+              "type": "string",
+              "value": "Barang – barang yang terdapat di dalam rumah Adli: Baju, guli, patung, bola, tali."
+            },
+            {
+              "type": "string",
+              "value": "Adli menendang bola dengan kuat ke arah pencuri. Pencuri itu jatuh.​"
+            },
+            {
+              "type": "string",
+              "value": "Adli menabur guli di lantai untuk membuat pencuri tergelincir. "
+            },
+            {
+              "type": "string",
+              "value": "Adli menggunakan tali untuk membuat pencuri jatuh dan mengikat pencuri."
+            },
+            {
+              "type": "string",
+              "value": "Baju yang sudah dilipat oleh ibu. Namun, sekarang bukan masa yang sesuai untuk Adli mengambil baju baharu. "
+            },
+            {
+              "type": "string",
+              "value": "Patung kegemaran Adli. Namun, sekarang bukan masa yang sesuai untuk bermain dengan patung."
+            },
+            {
+              "type": "string",
+              "value": "Setelah pencuri ditangkap dan diserahkan kepada pihak polis, ibu bapa Adli tiba ke rumah mereka dan bergegas mendapatkan Adli dan Azhar."
+            },
+            {
+              "type": "string",
+              "value": "Mereka bimbang akan keselamatan Adli dan Azhar."
+            },
+            {
+              "type": "string",
+              "value": "Adli menggunakan tali untuk membuat pencuri terjatuh."
+            },
+            {
+              "type": "string",
+              "value": "Tidak lama kemudian, Adli terdengar bunyi siren di hadapan rumahnya. Rupa-rupanya pihak polis telah tiba ke rumah Adli untuk menangkap si pencuri."
             }
           ]
         },
         {
+          "folded": true,
           "name": "other",
           "persistentUuid": "5ccf31aa-cbe3-42cc-9439-b8d841b66ea6",
           "type": "array",
@@ -1839,6 +1891,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "pencuri",
           "type": "array",
           "children": [
@@ -1850,11 +1903,12 @@
             {
               "folded": true,
               "type": "string",
-              "value": "Oi! Mari sini, jangan lari!!"
+              "value": "Hei, mari sini! Jangan lari!"
             }
           ]
         },
         {
+          "folded": true,
           "name": "rara",
           "persistentUuid": "8d9f0f05-c578-49e2-b799-0165334893b6",
           "type": "array",
@@ -1865,16 +1919,21 @@
             },
             {
               "type": "string",
-              "value": " Hai adik-adik!, Harini Rara nak menceritakan sebuah kisah tentang seorang kanak-kanak yang bercita-cita menjadi askar. Nama dia ialah Adli"
+              "value": "Hai, adik-adik ! Hari ini Rara akan menceritakan sebuah kisah tentang seorang kanak-kanak yang bercita-cita menjadi askar. Nama dia ialah Adli."
             },
             {
               "folded": true,
               "type": "string",
               "value": "Tahniah, anda sudah diperingkat akhir. ​"
+            },
+            {
+              "type": "string",
+              "value": "Tahniah Adli, kerana telah berjaya menjadi seorang yang hebat!"
             }
           ]
         },
         {
+          "folded": true,
           "name": "riri",
           "persistentUuid": "12b44c47-2c1c-4b36-8d7e-429a535e3b06",
           "type": "array",
@@ -1885,11 +1944,15 @@
             },
             {
               "type": "string",
-              "value": "Kisahnya bermula pada hari kelahiran Adli yang ke-9"
+              "value": "Kisahnya bermula pada hari kelahiran Adli yang ke-9 tahun."
             },
             {
               "type": "string",
               "value": " Anda perlu mencari 3 barang yang bersesuaian untuk melemahkan pencuri.​"
+            },
+            {
+              "type": "string",
+              "value": "Mari kita lihat markah keseluruhan Adli. "
             }
           ]
         }
