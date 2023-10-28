@@ -1376,9 +1376,9 @@
       "effects": [],
       "behaviors": [
         {
-          "maxSpeed": 70,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 70,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,

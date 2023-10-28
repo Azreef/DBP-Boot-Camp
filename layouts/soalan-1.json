@@ -45,7 +45,6 @@
       "name": "letterText",
       "persistentUuid": "68cbecc3-f457-477a-9991-ae701fc9ad49",
       "width": 0,
-
       "x": 712,
       "y": 334,
       "zOrder": 4,
@@ -77,11 +76,9 @@
       "layer": "",
       "name": "questionText",
       "persistentUuid": "8cb233a9-dd7f-48d1-8698-fe13eb3cab83",
-
       "width": 755,
       "x": 341,
       "y": 233,
-
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
