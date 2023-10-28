@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "0d9917ff-b024-4403-8a74-c2d1f5cfd73a",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "adaptHeight",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -854,6 +854,578 @@
         "name": "NewSprite9",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/charPos1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/charPos1.png\"}",
+        "name": "charPos1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/charPos2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "charPos2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/charPos3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "charPos3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/itemKnife.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "itemKnife",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Down/Adli down 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Down\\Adli down 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Down/Adli down 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Down\\Adli down 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Down/Adli down 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Down\\Adli down 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Side/Adli side 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Side\\Adli side 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Side/Adli side 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Side\\Adli side 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Side/Adli side 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Side\\Adli side 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Up/Adli up 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Up\\Adli up 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Up/Adli up 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Up\\Adli up 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Adli/Adli Up/Adli up 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Adli\\Adli Up\\Adli up 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/Adli.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\Adli.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/Azhar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\Azhar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/Ibubapa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\Ibubapa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/ayahibu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\ayahibu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/azhar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\azhar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/pencuri.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\pencuri.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite22",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Map/living room.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Map/living room.png\",\"extension\":\".png\"}",
+        "name": "assets\\Map\\living room.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Map/kitchen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\kitchen.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Map/bedroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\bedroom.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Map/outdoor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\outdoor.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Map_living room.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Map_living room.png\"}",
+        "name": "assets\\Map\\living room",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue background/lv.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue background\\lv.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue background/bedroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue background\\bedroom.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue background/library.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue background\\library.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue background/theft.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue background\\theft.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Map/wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Map\\wall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue background/outdoor.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue background\\outdoor.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/down/pencuri down 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\down\\pencuri down 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/side/pencuri side 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\side\\pencuri side 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/side/pencuri side 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\side\\pencuri side 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/side/pencuri side 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\side\\pencuri side 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/down/pencuri down 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\down\\pencuri down 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/down/pencuri down 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\down\\pencuri down 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/up/pencuri upward 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\up\\pencuri upward 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/up/pencuri upward 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\up\\pencuri upward 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pencuri/up/pencuri upward 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Pencuri\\up\\pencuri upward 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Azhar/Azhar yang takut 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Azhar\\Azhar yang takut 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Azhar/Azhar yang takut 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Azhar\\Azhar yang takut 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Azhar/Azhar yang takut 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Azhar\\Azhar yang takut 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue background/paper.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue background\\paper.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
+          "name": "Medieval Button Brown_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
+          "name": "Medieval Button Brown_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
+          "name": "Medieval Button Brown_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "CaveatBrush-Regular.ttf"
+        }
       }
     ],
     "resourceFolders": []
@@ -865,23 +1437,138 @@
       "folded": true,
       "name": "currentDialogue",
       "type": "number",
-      "value": 0
+      "value": 1
     },
     {
       "name": "dialogueData",
       "type": "structure",
       "children": [
         {
+          "folded": true,
           "name": "adli",
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Adli"
             },
             {
               "type": "string",
               "value": " Baiklah ibu dan ayah."
+            },
+            {
+              "type": "string",
+              "value": "Abang, bolehkah nanti kita menonton filem Leftenan Adnan?"
+            },
+            {
+              "type": "string",
+              "value": "Baik abang."
+            },
+            {
+              "type": "string",
+              "value": "Alamak, sampah dalam tong sampah masih belum dibuang. Apakah yang patut Adli lakukan?​"
+            },
+            {
+              "type": "string",
+              "value": "Ehh, kenapa mainan ini terbiar saja disini?"
+            },
+            {
+              "type": "string",
+              "value": "Wahh, pisau itu seperti pisau yang selalu digunakan oleh askar dalam latihan. Adli mahu tengok dengan lebih dekat. Tapi ibu tidak benarkan Adli pegang."
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Hmm, nampaknya abang sedang mencari  alat kawalan jauh televisyen ?​"
+            },
+            {
+              "type": "string",
+              "value": "Wahh! ada orang jual aiskrim di seberang jalan. Adli teringin membeli aiskrim itu, tetapi ibu dan ayah tidak benarkan Adli untuk keluar dari rumah."
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Adli perlu menyiapkan kerja sekolah, tetapi Adli boleh juga membuat kerja lain dahulu."
+            },
+            {
+              "type": "string",
+              "value": "sudah abang, ayuh!"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Abang Azhar! Ada pencuri masuk ke rumah jiran kita. Apakah yang perlu kita lakukan?"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Apakah yang Adli patut lakukan?"
+            },
+            {
+              "type": "string",
+              "value": " Siapakah yang Adli perlu menghubungi pada masa tersebut?"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Ibu tolong Adli dan abang, ada pencuri di luar rumah!"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Selamat petang tuan, saya melihat pencuri di hadapan rumah saya."
+            },
+            {
+              "type": "string",
+              "value": "Selamat pagi Encik, saya ingin memaklumkan bahawa saya melihat kelibat pencuri di luar rumah saya."
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Abang, tolong Adli, ada pencuri di luar rumah kita !"
+            },
+            {
+              "type": "string",
+              "value": "Adakah Adli perlu menutup lampu bagi mengelakan​  pencuri masuk ke rumah?"
+            },
+            {
+              "type": "string",
+              "value": "Adakah Adli perlu menutup langsir tingkap bagi mengelakan pencuri masuk ke rumah?"
+            },
+            {
+              "persistentUuid": "4706e4e6-d08c-40ef-b89c-085c3194dfe6",
+              "type": "string",
+              "value": "Saya perlu bersembunyi daripada pencuri itu."
+            },
+            {
+              "persistentUuid": "282d7c0b-0d67-4449-9195-a32e3a147d21",
+              "type": "string",
+              "value": "Lebih baik saya bersembunyi dibawah katil agar pencuri itu tidak menyedari akan kehadiran saya."
+            },
+            {
+              "persistentUuid": "ad6cfaff-a1a8-47cc-9954-718d3a977628",
+              "type": "string",
+              "value": "Alamak!! Pencuri itu telah nampak saya, saya perlu beredar dari sini."
+            },
+            {
+              "persistentUuid": "2df4ebfe-3948-4006-ac62-93f40c1d4997",
+              "type": "string",
+              "value": "Pencuri itu telah pengsan!"
+            },
+            {
+              "persistentUuid": "14ee073b-f3ce-45c0-a266-42cf653e5ce0",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "persistentUuid": "24deb081-2749-4955-85d5-75235e7fc052",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "persistentUuid": "5b193cad-689b-489f-852d-f2666b976200",
+              "type": "string",
+              "value": "0"
             }
           ]
         },
@@ -892,9 +1579,186 @@
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Azhar"
             },
             {
+              "type": "string",
+              "value": "Boleh saja, tapi selepas Adli selesai membuat kerja sekolah."
+            },
+            {
+              "type": "string",
+              "value": "Adli sudah selesaikan kerja sekolah kan? mari kita menonton filem Leftenan Adnan.​"
+            },
+            {
+              "type": "string",
+              "value": "Mana? Mana? Kita perlu lakukan sesuatu sebelum pencuri itu bertindak. Abang akan ke rumah jiran untuk minta bantuan. Adli harus sembunyi di bawah katil supaya tidak dijumpai oleh pencuri.​"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "choice",
+          "persistentUuid": "b1f93394-4a5b-42a8-802e-1efd4391d42a",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Pilihan"
+            },
+            {
+              "type": "string",
+              "value": "Membuang sampah ke dalam tong sampah di luar rumah."
+            },
+            {
+              "type": "string",
+              "value": "Mengikat plastik sampah tersebut ​  dengan kemas."
+            },
+            {
+              "persistentUuid": "faccc229-07f5-416f-a7f2-02b6d50f382f",
+              "type": "string",
+              "value": "Membiarkan sampah tersebut begitu ​  Sahaja."
+            },
+            {
+              "persistentUuid": "11ac3956-414f-4960-88a6-35d844d39cfc",
+              "type": "string",
+              "value": " Simpan semula mainan tersebut."
+            },
+            {
+              "persistentUuid": "e29a9d8c-e0c6-4ab5-aa45-16d522fc7e97",
+              "type": "string",
+              "value": "Main seorang diri."
+            },
+            {
+              "persistentUuid": "d4ea5b39-9bb4-42f7-ac4f-d6662f02751b",
+              "type": "string",
+              "value": "Mengajak abangnya untuk bermain bersama-sama.​"
+            },
+            {
+              "persistentUuid": "8eddd8a7-62ac-4527-8afc-1e98775adcb1",
+              "type": "string",
+              "value": "Mengambil dan bermain dengan pisau tersebut."
+            },
+            {
+              "persistentUuid": "0f88c869-80b0-4f76-83cd-07c5a9cc87d6",
+              "type": "string",
+              "value": "Mengambil pisau dan simpan di tempat yang sepatutnya."
+            },
+            {
+              "persistentUuid": "c48c4ce6-41b2-4699-b6a5-2a1882cba020",
+              "type": "string",
+              "value": "Menolong abangnya mencari alat kawalan jauh"
+            },
+            {
+              "persistentUuid": "a9f762ab-5ef3-4d2d-8c7f-e41f2a6b7e6e",
+              "type": "string",
+              "value": "Membiarkan sahaja dan berlalu pergi."
+            },
+            {
+              "persistentUuid": "8f2c2821-7c25-4c46-9819-cb7b2e9ba1ea",
+              "type": "string",
+              "value": "Kunci pagar tersebut"
+            },
+            {
+              "persistentUuid": "0229f2a2-46a4-47b6-a869-8de5bc48e4e4",
+              "type": "string",
+              "value": "Keluar untuk membeli aiskrim."
+            },
+            {
+              "persistentUuid": "952fcf82-5186-4dd6-b6ed-5adf7d07e84c",
+              "type": "string",
+              "value": "Adli terus membuat kerja sekolah sehingga selesai."
+            },
+            {
+              "persistentUuid": "ebe89ccf-6b22-456a-bbfb-264bc590afac",
+              "type": "string",
+              "value": "Sambung menerokai."
+            },
+            {
+              "persistentUuid": "d6809af1-a738-43c1-81cb-581878218fa0",
+              "type": "string",
+              "value": "Mengunci pintu tersebut."
+            },
+            {
+              "persistentUuid": "a3f7aa3f-7105-44f6-850c-9d7442599cfe",
+              "type": "string",
+              "value": "Membuka pintu dan menjerit kepada pencuri itu."
+            },
+            {
+              "persistentUuid": "f9a3aba3-4ba7-44a2-9bb5-e5652ed2429a",
+              "type": "string",
+              "value": "Ibu bapanya"
+            },
+            {
+              "persistentUuid": "9a192fd4-b198-4b1f-abfa-056e2015e7d4",
+              "type": "string",
+              "value": "Polis"
+            },
+            {
+              "persistentUuid": "9670ccf8-1089-4055-8fc3-852e6f8eeb17",
+              "type": "string",
+              "value": "Kedai pizza"
+            },
+            {
+              "persistentUuid": "ff79f685-a162-45eb-ab04-2f7fd9fab81a",
+              "type": "string",
+              "value": "Abangnya Azhar"
+            },
+            {
+              "persistentUuid": "e4f3a0db-51b1-40e2-b97a-9c03635c2b03",
+              "type": "string",
+              "value": "Tutup Lampu"
+            },
+            {
+              "persistentUuid": "196c9b56-1615-4050-b385-5bd9b7c0759f",
+              "type": "string",
+              "value": "Membiarkan lampu terbuka."
+            },
+            {
+              "persistentUuid": "9fa3e284-977d-4cf1-ba20-34d4f68b034a",
+              "type": "string",
+              "value": "Menutup langsir"
+            },
+            {
+              "persistentUuid": "46d8adf8-b21c-48e8-8788-29a894471b72",
+              "type": "string",
+              "value": "Membuka tingkap"
+            },
+            {
+              "persistentUuid": "c6984e7c-7c11-4306-abb6-372410f46f77",
+              "type": "string",
+              "value": "Membiarkan langsir dan tingkap terbuka"
+            },
+            {
+              "persistentUuid": "ac3464ea-c242-45b0-b4ad-664def24848f",
+              "type": "string",
+              "value": "Bersembunyi di bawah katil"
+            },
+            {
+              "persistentUuid": "f357675a-fd43-4f8a-9e07-ca18d6d4cef4",
+              "type": "string",
+              "value": "Masih belum masanya."
+            },
+            {
+              "persistentUuid": "4f06775a-26d8-4ede-b3b6-1fae4caa806d",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "persistentUuid": "d9d52cf0-f6d0-47b9-867f-2f484d7c65cd",
               "type": "string",
               "value": "0"
             }
@@ -907,18 +1771,51 @@
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Ibu "
             },
             {
               "type": "string",
               "value": "Adli, Azhar, mari sini sekejap. Ibu dan ayah nak keluar ke pasar. Ingat pesan ibu, Adli dan Azhar jaga diri baik-baik. Jangan keluar rumah sebarangan. Azhar tolong jaga adik baik-baik"
+            },
+            {
+              "type": "string",
+              "value": "Maaf Adli, ibu tidak dapat mendengar suara Adli dengan jelas. Nanti ibu telefon Adli semula."
             }
           ]
         },
         {
-          "folded": true,
+          "name": "narrator",
+          "persistentUuid": "9e885c69-4edf-4536-b603-8c789a5abf84",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Narrator"
+            },
+            {
+              "type": "string",
+              "value": "Semasa mereka menonton televisyen, Adli terlihat kelibat seorang lelaki yang mencurigakan di luar tingkap rumah jiran mereka."
+            },
+            {
+              "persistentUuid": "ef40a8e1-9877-4897-b694-cd1b800308cf",
+              "type": "string",
+              "value": "Tidak lama kemudian, pencuri itu menuju ke rumah Adli. "
+            },
+            {
+              "persistentUuid": "498dfb1a-03dc-420e-b8ab-b32df226b328",
+              "type": "string",
+              "value": "Pencuri itu cuba untuk memasuki rumah Adli."
+            },
+            {
+              "persistentUuid": "4f89cc36-96a2-4664-8adc-30dbd70a3b74",
+              "type": "string",
+              "value": "Pencuri berjaya memasuki rumah Adli melalui tingkap bilik."
+            }
+          ]
+        },
+        {
           "name": "other",
-          "persistentUuid": "be401e96-9915-47d0-a2bd-8676b596a775",
+          "persistentUuid": "5ccf31aa-cbe3-42cc-9439-b8d841b66ea6",
           "type": "array",
           "children": [
             {
@@ -927,39 +1824,72 @@
             },
             {
               "type": "string",
-              "value": "0"
+              "value": " Maaf, saya tidak dapat membantu anda."
+            },
+            {
+              "persistentUuid": "63da7638-481d-41a3-a915-6ac2261b2c99",
+              "type": "string",
+              "value": "Sila bertenang dan berikan alamat  rumah adik kepada kami."
+            },
+            {
+              "persistentUuid": "d917b066-9b71-48ee-8913-eec77c93ee45",
+              "type": "string",
+              "value": ""
             }
           ]
         },
         {
-          "folded": true,
+          "name": "pencuri",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Pencuri"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Oi! Mari sini, jangan lari!!"
+            }
+          ]
+        },
+        {
           "name": "rara",
           "persistentUuid": "8d9f0f05-c578-49e2-b799-0165334893b6",
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Rara"
             },
             {
               "type": "string",
-              "value": "0"
+              "value": " Hai adik-adik!, Harini Rara nak menceritakan sebuah kisah tentang seorang kanak-kanak yang bercita-cita menjadi askar. Nama dia ialah Adli"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Tahniah, anda sudah diperingkat akhir. ​"
             }
           ]
         },
         {
-          "folded": true,
           "name": "riri",
           "persistentUuid": "12b44c47-2c1c-4b36-8d7e-429a535e3b06",
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Riri"
             },
             {
               "type": "string",
-              "value": "0"
+              "value": "Kisahnya bermula pada hari kelahiran Adli yang ke-9"
+            },
+            {
+              "type": "string",
+              "value": " Anda perlu mencari 3 barang yang bersesuaian untuk melemahkan pencuri.​"
             }
           ]
         }
@@ -973,11 +1903,39 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/dialogue"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/soalan-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/soalan-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/soalan-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/soalan-6"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/soalan-5"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/soalan-4"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
