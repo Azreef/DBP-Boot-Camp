@@ -33,37 +33,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "nameText",
-      "persistentUuid": "9b8e010e-9d67-4a13-a2b5-3bfa46b27894",
-      "width": 0,
-      "x": 45,
-      "y": 541,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 116,
-      "layer": "UI",
-      "name": "dialogueText",
-      "persistentUuid": "c4f2d5e2-3473-41be-b848-0ca57361a7d3",
-      "width": 1145,
-      "x": 22,
-      "y": 593,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 24,
       "height": 48,
@@ -138,53 +107,55 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "nameText",
+      "persistentUuid": "eefdaed8-01f1-4e5b-8459-bcc0ad6d9df6",
+      "width": 0,
+      "x": 266,
+      "y": 596,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "nameText",
+      "persistentUuid": "e2adf074-f595-4f92-a76c-5ae449eb8f97",
+      "width": 0,
+      "x": 30,
+      "y": 558,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 92,
+      "layer": "UI",
+      "name": "dialogueText",
+      "persistentUuid": "6353c232-cbd1-4aca-9c15-6226a6050394",
+      "width": 971,
+      "x": 36,
+      "y": 611,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "nameText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Azhar",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "dialogueText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Ayy wassup my brotha",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 39,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
     {
       "assetStoreId": "5f0df6131c9646dcbe98798196db5b6d806eb25564f86d2e119a084d1e20bf74",
       "name": "BlackDecoratedButton",
@@ -879,6 +850,44 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "nameText",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Nama",
+        "opacity": 255,
+        "fontSize": 30,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "dialogueText",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "eey whats a matter",
+        "opacity": 255,
+        "fontSize": 30,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -985,11 +994,6 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -1005,12 +1009,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "nameText",
+                    "=",
+                    "dialogueData.rara[0]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
                   },
                   "parameters": [
                     "dialogueText",
                     "=",
-                    "dialogueData.ibubapa[1]"
+                    "dialogueData.rara[1]"
                   ]
                 }
               ]
@@ -1032,12 +1046,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextObject::String"
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "nameText",
+                    "=",
+                    "dialogueData.riri[0]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
                   },
                   "parameters": [
                     "dialogueText",
                     "=",
-                    "dialogueData.adli[1]"
+                    "dialogueData.riri[1]"
                   ]
                 }
               ]
@@ -1045,7 +1069,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1075,18 +1098,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "dialogueData.ibubapa[1]"
-                  ]
-                }
-              ]
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1102,18 +1114,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "dialogueData.adli[1]"
-                  ]
-                }
-              ]
+              "actions": []
             }
           ]
         },
@@ -1148,18 +1149,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "dialogueData.ibubapa[1]"
-                  ]
-                }
-              ]
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1175,18 +1165,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "dialogueData.adli[1]"
-                  ]
-                }
-              ]
+              "actions": []
             }
           ]
         }

@@ -940,7 +940,7 @@
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Adli"
             },
             {
               "type": "string",
@@ -955,7 +955,7 @@
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Azhar"
             },
             {
               "type": "string",
@@ -970,7 +970,7 @@
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Ibu "
             },
             {
               "type": "string",
@@ -995,34 +995,32 @@
           ]
         },
         {
-          "folded": true,
           "name": "rara",
           "persistentUuid": "8d9f0f05-c578-49e2-b799-0165334893b6",
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Rara"
             },
             {
               "type": "string",
-              "value": "0"
+              "value": " Hai adik-adik!, Harini Rara nak menceritakan sebuah kisah tentang seorang kanak-kanak yang bercita-cita menjadi askar. Nama dia ialah Adli"
             }
           ]
         },
         {
-          "folded": true,
           "name": "riri",
           "persistentUuid": "12b44c47-2c1c-4b36-8d7e-429a535e3b06",
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Riri"
             },
             {
               "type": "string",
-              "value": "0"
+              "value": "Kisahnya bermula pada hari kelahiran Adli yang ke-9"
             }
           ]
         }
