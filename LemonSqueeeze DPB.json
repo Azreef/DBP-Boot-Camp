@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "0d9917ff-b024-4403-8a74-c2d1f5cfd73a",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "adaptHeight",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -935,6 +935,7 @@
       "type": "structure",
       "children": [
         {
+          "folded": true,
           "name": "adli",
           "type": "array",
           "children": [
@@ -945,6 +946,85 @@
             {
               "type": "string",
               "value": " Baiklah ibu dan ayah."
+            },
+            {
+              "type": "string",
+              "value": "Abang, bolehkah nanti kita menonton filem Leftenan Adnan?"
+            },
+            {
+              "type": "string",
+              "value": "Baik abang."
+            },
+            {
+              "type": "string",
+              "value": "Alamak, sampah dalam tong sampah masih belum dibuang. Apakah yang patut Adli lakukan?​"
+            },
+            {
+              "type": "string",
+              "value": "Ehh, kenapa mainan ini terbiar saja disini?"
+            },
+            {
+              "type": "string",
+              "value": "Wahh, pisau itu seperti pisau yang selalu digunakan oleh askar dalam latihan. Adli mahu tengok dengan lebih dekat. Tapi ibu tidak benarkan Adli pegang."
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Hmm, nampaknya abang sedang mencari  alat kawalan jauh televisyen ?​"
+            },
+            {
+              "type": "string",
+              "value": "Wahh! ada orang jual aiskrim di seberang jalan. Adli teringin membeli aiskrim itu, tetapi ibu dan ayah tidak benarkan Adli untuk keluar dari rumah."
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Adli perlu menyiapkan kerja sekolah, tetapi Adli boleh juga membuat kerja lain dahulu."
+            },
+            {
+              "type": "string",
+              "value": "sudah abang, ayuh!"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "type": "string",
+              "value": "0"
             }
           ]
         },
@@ -959,11 +1039,34 @@
             },
             {
               "type": "string",
+              "value": "Boleh saja, tapi selepas Adli selesai membuat kerja sekolah."
+            },
+            {
+              "type": "string",
+              "value": "Adli sudah selesaikan kerja sekolah kan? mari kita menonton filem Leftenan Adnan.​"
+            },
+            {
+              "type": "string",
+              "value": "Mana? Mana? Kita perlu lakukan sesuatu sebelum pencuri itu bertindak. Abang akan ke rumah jiran untuk minta bantuan. Adli harus sembunyi di bawah katil supaya tidak dijumpai oleh pencuri.​"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "folded": true,
+              "type": "string",
               "value": "0"
             }
           ]
         },
         {
+          "folded": true,
           "name": "ibubapa",
           "persistentUuid": "5fec818e-2477-400a-861f-58beb79b787e",
           "type": "array",
@@ -995,6 +1098,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "rara",
           "persistentUuid": "8d9f0f05-c578-49e2-b799-0165334893b6",
           "type": "array",
@@ -1010,6 +1114,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "riri",
           "persistentUuid": "12b44c47-2c1c-4b36-8d7e-429a535e3b06",
           "type": "array",
