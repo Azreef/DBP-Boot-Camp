@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43357743047024144,
+    "zoomFactor": 0.27253598967729586,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -949,9 +949,9 @@
       "effects": [],
       "behaviors": [
         {
-          "angularMaxSpeed": 360,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "angularMaxSpeed": 360,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -3417,10 +3417,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ]
     }
