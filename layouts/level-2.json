@@ -4839,6 +4839,7 @@
           "comment": "LEVEL 2\n0 - none\n7 - door\n8 - Telephone\n9 - Bed\n10 - Lamp\n11 - window"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4898,6 +4899,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4957,6 +4959,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5016,6 +5019,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5075,6 +5079,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5460,6 +5465,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5609,6 +5615,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Lamp",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5758,6 +5765,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Window",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
