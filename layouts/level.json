@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402156839,
+    "zoomFactor": 0.6455105703311542,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,12 +34,12 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 229,
+      "depth": 1,
+      "height": 124,
       "layer": "",
       "name": "adli",
       "persistentUuid": "23c7be41-356f-482d-8e48-f1cf718066ab",
-      "width": 229,
+      "width": 124,
       "x": 781,
       "y": 481,
       "zOrder": 1,
@@ -49,14 +49,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 143,
       "layer": "",
       "name": "pencuri",
       "persistentUuid": "755300e7-8308-43a4-894e-23cf810e67f5",
-      "width": 0,
-      "x": 892,
-      "y": 150,
+      "width": 146,
+      "x": 925,
+      "y": 400,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,30 +65,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 151,
       "layer": "",
       "name": "azhar",
       "persistentUuid": "ba11c8cc-7434-4001-a803-12d7aa4c8342",
-      "width": 0,
-      "x": 774,
-      "y": 151,
+      "width": 151,
+      "x": 879,
+      "y": 546,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "dialogueAzhar",
-      "persistentUuid": "805bf4c1-587e-466b-9090-9956deaa9e8e",
-      "width": 0,
-      "x": 205,
-      "y": 123,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -135,22 +122,6 @@
       "x": -19,
       "y": -2,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 443,
-      "layer": "",
-      "name": "barrier",
-      "persistentUuid": "ff5e65b2-abfb-46a3-aeb7-c6c30e5a5bed",
-      "width": 89,
-      "x": 563,
-      "y": 109,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -227,25 +198,9 @@
       "name": "itemTrash",
       "persistentUuid": "86c3f637-865d-4596-a391-1aef54471812",
       "width": 0,
-      "x": 1037,
-      "y": 256,
+      "x": 906,
+      "y": 246,
       "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 62,
-      "layer": "",
-      "name": "interactPrompt",
-      "persistentUuid": "51bde0f6-c359-4f8f-b51b-783dfe746c86",
-      "width": 62,
-      "x": 422,
-      "y": 764,
-      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -336,8 +291,8 @@
       "name": "itemTV",
       "persistentUuid": "c9f3b7c9-4d80-4720-8e71-0564fd3e2eb7",
       "width": 0,
-      "x": 720,
-      "y": 384,
+      "x": 829,
+      "y": 375,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -369,6 +324,614 @@
       "x": 1067,
       "y": 563,
       "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 725,
+      "layer": "Background",
+      "name": "mapLivingRoom",
+      "persistentUuid": "6c8284b3-9fe4-4a26-9bc7-e7b6e4f1c780",
+      "width": 1088,
+      "x": 192,
+      "y": 0,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 693,
+      "layer": "Background",
+      "name": "mapKitchen",
+      "persistentUuid": "0f05b155-1e75-4a33-8924-662e4e048e70",
+      "width": 594,
+      "x": 684,
+      "y": 724,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 602,
+      "layer": "Background",
+      "name": "mapBedroom",
+      "persistentUuid": "e6aec458-4f41-4e8c-beac-3f117e742f66",
+      "width": 996,
+      "x": 286,
+      "y": -495,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 757,
+      "layer": "Background",
+      "name": "mapOutside",
+      "persistentUuid": "d2bcef10-a612-459a-83a7-cb381c7af2f7",
+      "width": 541,
+      "x": 1246,
+      "y": 241,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "e4cf43b7-dbac-4208-aaf4-eed2edd69a89",
+      "width": 187,
+      "x": 496,
+      "y": -269,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "c5f9ddec-0a1a-486e-93a4-bbc7c1edeadc",
+      "width": 79,
+      "x": 397,
+      "y": 121,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "7164bedf-f419-49fb-a964-6b6bd8ce001f",
+      "width": 79,
+      "x": 511,
+      "y": 154,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 110,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "ed5d4916-fe03-41f3-b112-fef9f4a62f3a",
+      "width": 64,
+      "x": 641,
+      "y": 138,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "c481ec36-0e34-438a-ba03-ca4a2c5db7b3",
+      "width": 784,
+      "x": 184,
+      "y": -5,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "b0fe61ba-9665-4437-934c-8d4ad8b3046b",
+      "width": 218,
+      "x": 1022,
+      "y": -19,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 184,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "1f24b24f-751b-4b3a-97c0-c81f53831b8b",
+      "width": 330,
+      "x": 413,
+      "y": 340,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 282,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "3a40b0f6-b891-4b26-a794-126da41c6d14",
+      "width": 105,
+      "x": 718,
+      "y": 751,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 101,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "da1b9b3c-f785-4ca3-b355-821e961d2090",
+      "width": 85,
+      "x": 799,
+      "y": 864,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 262,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "0ad60280-3c44-44a7-b883-d8fee9a10849",
+      "width": 43,
+      "x": 1191,
+      "y": 773,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "2083d4d5-094d-4088-928c-dba3b3a24cc8",
+      "width": 43,
+      "x": 1132,
+      "y": 824,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 40,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "3c9b882f-f98b-4bdf-b0d7-bf677759c554",
+      "width": 43,
+      "x": 1139,
+      "y": 917,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "6306e752-16d1-4ca7-8ee5-861d16c02f50",
+      "width": 327,
+      "x": 891,
+      "y": 1153,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 27,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "b6f6d916-c63a-4ece-b9ef-cb7d4f65fa29",
+      "width": 188,
+      "x": 1025,
+      "y": 1124,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 87,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "820cb2f6-33e2-4d1f-8f7f-a1306f425199",
+      "width": 108,
+      "x": 745,
+      "y": 1250,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 87,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "6eb2e000-10d9-4a08-820a-4e1dac6009ac",
+      "width": 531,
+      "x": 727,
+      "y": 1326,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "9eb60845-2ed2-436a-b3a8-417129badf34",
+      "width": 553,
+      "x": 1244,
+      "y": 958,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "fa758d30-5d4e-425c-8b93-6c1b76987c7b",
+      "width": 553,
+      "x": 986,
+      "y": 1224,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "40e0a9e5-a57c-4ac8-a030-cb328bbcd166",
+      "width": 786,
+      "x": 1419,
+      "y": 541,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "e06e27de-8fc0-408d-93ec-740193ab09a2",
+      "width": 553,
+      "x": 1253,
+      "y": 187,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "9898ff3f-0dcf-47ce-b284-73bdcb9f02b5",
+      "width": 786,
+      "x": 875,
+      "y": -217,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "1b83562b-86b6-44c5-9d8f-cb9596c35d9d",
+      "width": 970,
+      "x": 306,
+      "y": -448,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "7ba0508d-6907-428c-9d93-57419f3e897c",
+      "width": 532,
+      "x": 51,
+      "y": -279,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "628e5249-9153-4fb2-b277-6116fa84b0d1",
+      "width": 702,
+      "x": -131,
+      "y": 360,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "e8207d31-580c-4290-ab13-de474a608323",
+      "width": 535,
+      "x": 197,
+      "y": 700,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "204b8c42-30d2-4300-9ac0-eef80d2dbd47",
+      "width": 688,
+      "x": 356,
+      "y": 1058,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 82,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "599eecf5-5fb6-460a-9d53-a26b80995fa4",
+      "width": 62,
+      "x": 1169,
+      "y": 148,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 82,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "3124a703-38c8-4605-b9ea-1b8de51dedd1",
+      "width": 62,
+      "x": 1275,
+      "y": 280,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 82,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "2a2dad9f-e099-46a5-bf60-cfeb31cc7558",
+      "width": 62,
+      "x": 1266,
+      "y": 618,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 135,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "6cd7dedb-3232-40a2-8ebf-d08064707735",
+      "width": 167,
+      "x": 1244,
+      "y": 686,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 82,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "be570cb5-1ef6-47cc-aae9-5b85cfd4b942",
+      "width": 62,
+      "x": 1247,
+      "y": 788,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 82,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "5c581353-50f2-4716-85fd-05c5a643b45d",
+      "width": 62,
+      "x": 238,
+      "y": 625,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "3be34a2a-4dca-4d1e-942b-83d9f6381930",
+      "width": 786,
+      "x": 858,
+      "y": -12,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "layer": "barrier",
+      "name": "barier",
+      "persistentUuid": "72b2488c-b9f4-40de-a699-e43a7f67be00",
+      "width": 786,
+      "x": 851,
+      "y": 884,
+      "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -842,17 +1405,17 @@
       ],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "pencuri_idle",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "assets\\Pencuri\\down\\pencuri down 1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -868,20 +1431,380 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 21,
-                        "y": 4
+                        "x": 210,
+                        "y": 120
                       },
                       {
-                        "x": 43,
-                        "y": 4
+                        "x": 430,
+                        "y": 120
                       },
                       {
-                        "x": 43,
-                        "y": 53
+                        "x": 430,
+                        "y": 480
                       },
                       {
-                        "x": 21,
-                        "y": 53
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pencuri_walk_right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\side\\pencuri side 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\side\\pencuri side 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\side\\pencuri side 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pencuri_walk_down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\down\\pencuri down 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\down\\pencuri down 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\down\\pencuri down 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pencuri_walk_up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\up\\pencuri upward 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\up\\pencuri upward 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Pencuri\\up\\pencuri upward 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 210,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 120
+                      },
+                      {
+                        "x": 430,
+                        "y": 480
+                      },
+                      {
+                        "x": 210,
+                        "y": 480
                       }
                     ]
                   ]
@@ -908,13 +1831,13 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.16,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite3",
+                  "image": "assets\\Azhar\\Azhar yang takut 1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -930,20 +1853,92 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
-                        "y": 2
+                        "x": 220,
+                        "y": 150
                       },
                       {
-                        "x": 39,
-                        "y": 2
+                        "x": 420,
+                        "y": 150
                       },
                       {
-                        "x": 39,
-                        "y": 60
+                        "x": 420,
+                        "y": 480
                       },
                       {
-                        "x": 19,
-                        "y": 60
+                        "x": 220,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Azhar\\Azhar yang takut 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 220,
+                        "y": 150
+                      },
+                      {
+                        "x": 420,
+                        "y": 150
+                      },
+                      {
+                        "x": 420,
+                        "y": 480
+                      },
+                      {
+                        "x": 220,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Azhar\\Azhar yang takut 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 220,
+                        "y": 150
+                      },
+                      {
+                        "x": 420,
+                        "y": 150
+                      },
+                      {
+                        "x": 420,
+                        "y": 480
+                      },
+                      {
+                        "x": 220,
+                        "y": 480
                       }
                     ]
                   ]
@@ -2164,6 +3159,270 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mapLivingRoom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Map\\living room",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Map\\living room",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 672,
+                        "y": 0
+                      },
+                      {
+                        "x": 672,
+                        "y": 448
+                      },
+                      {
+                        "x": 0,
+                        "y": 448
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mapKitchen",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Map\\kitchen.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 384,
+                        "y": 0
+                      },
+                      {
+                        "x": 384,
+                        "y": 448
+                      },
+                      {
+                        "x": 0,
+                        "y": 448
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mapBedroom",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Map\\bedroom.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 576,
+                        "y": 0
+                      },
+                      {
+                        "x": 576,
+                        "y": 348
+                      },
+                      {
+                        "x": 0,
+                        "y": 348
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mapOutside",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Map\\outdoor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 480
+                      },
+                      {
+                        "x": 0,
+                        "y": 480
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "barier",
+      "tags": "",
+      "texture": "New image5",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ]
     }
   ],
   "events": [
@@ -2280,6 +3539,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Item Interaction",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4413,6 +5673,95 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "Camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(),adli.X(),0.08)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(),adli.Y(),0.08)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraX()",
+                "\"Background\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraY()",
+                "\"Background\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.2",
+                "\"Background\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.2",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "Player",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4580,6 +5929,35 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "adli",
+                "barier",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "adli",
+                "barier",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -4621,12 +5999,180 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "pencuri",
+                "Pathfinding",
+                "-90",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "pencuri",
+                "Animation",
+                "=",
+                "\"pencuri_walk_up\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "pencuri",
+                "Pathfinding",
+                "90",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "pencuri",
+                "Animation",
+                "=",
+                "\"pencuri_walk_down\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "pencuri",
+                "Pathfinding",
+                "0",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "pencuri",
+                "Animation",
+                "=",
+                "\"pencuri_walk_right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "pencuri",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::PathfindingBehavior::MovementAngleIsAround"
+              },
+              "parameters": [
+                "pencuri",
+                "Pathfinding",
+                "-180",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "pencuri",
+                "Animation",
+                "=",
+                "\"pencuri_walk_right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "pencuri",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
     }
   ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -4715,6 +6261,38 @@
       "name": "Gameplay",
       "renderingType": "",
       "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "barrier",
+      "renderingType": "",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
