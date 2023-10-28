@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4789341884535246,
+    "zoomFactor": 0.5468750000000002,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3334,7 +3334,7 @@
           },
           "parameters": [
             "",
-            "\"Minigame\"",
+            "\"Soalan 3\"",
             ""
           ]
         }
@@ -3354,7 +3354,18 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Soalan 4\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

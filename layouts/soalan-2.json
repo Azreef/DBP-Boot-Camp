@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4789341884535246,
+    "zoomFactor": 0.5843784410740929,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -167,7 +167,7 @@
       "persistentUuid": "610db163-7b06-45ee-b461-4db86391ffa4",
       "width": 0,
       "x": 960,
-      "y": 476,
+      "y": 448,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -3349,7 +3349,7 @@
           },
           "parameters": [
             "",
-            "\"Minigame\"",
+            "\"Soalan 2\"",
             ""
           ]
         }
@@ -3369,7 +3369,18 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Soalan 3\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
