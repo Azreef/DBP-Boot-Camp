@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40575189059438665,
+    "zoomFactor": 0.6672773998330044,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -343,8 +343,8 @@
       "name": "barier",
       "persistentUuid": "c481ec36-0e34-438a-ba03-ca4a2c5db7b3",
       "width": 768,
-      "x": 184,
-      "y": -5,
+      "x": 172,
+      "y": 0,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -359,8 +359,8 @@
       "name": "barier",
       "persistentUuid": "b0fe61ba-9665-4437-934c-8d4ad8b3046b",
       "width": 197,
-      "x": 1043,
-      "y": -19,
+      "x": 1041,
+      "y": 7,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -1376,9 +1376,9 @@
       "effects": [],
       "behaviors": [
         {
+          "maxSpeed": 70,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "maxSpeed": 50,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -6713,7 +6713,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pencuri Mechanic",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6757,7 +6756,7 @@
                 "pencuri",
                 "Pathfinding",
                 "-90",
-                "10"
+                "5"
               ]
             }
           ],
@@ -6786,7 +6785,7 @@
                 "pencuri",
                 "Pathfinding",
                 "90",
-                "10"
+                "5"
               ]
             }
           ],
@@ -6815,7 +6814,7 @@
                 "pencuri",
                 "Pathfinding",
                 "0",
-                "10"
+                "5"
               ]
             }
           ],
@@ -6854,7 +6853,7 @@
                 "pencuri",
                 "Pathfinding",
                 "-180",
-                "10"
+                "5"
               ]
             }
           ],

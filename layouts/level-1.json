@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5468750000000058,
+    "zoomFactor": 0.6897782140104568,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -272,14 +272,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 97,
       "layer": "",
       "name": "itemTV",
       "persistentUuid": "c9f3b7c9-4d80-4720-8e71-0564fd3e2eb7",
-      "width": 0,
-      "x": 522,
-      "y": 70,
+      "width": 64,
+      "x": 525,
+      "y": 42,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -287,14 +288,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
       "layer": "",
       "name": "itemGate",
       "persistentUuid": "c904a420-c665-4e7b-afa8-983b4e3503d6",
-      "width": 0,
-      "x": 1555,
-      "y": 928,
+      "width": 83,
+      "x": 1557,
+      "y": 909,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
@@ -2598,7 +2600,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -2660,7 +2679,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {

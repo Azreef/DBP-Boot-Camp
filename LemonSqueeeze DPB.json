@@ -1520,6 +1520,24 @@
         "name": "assets\\Items\\mainan 4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/widow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\widow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/Talifon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\Talifon.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
