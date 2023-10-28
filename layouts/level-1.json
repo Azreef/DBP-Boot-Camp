@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4950840073748935,
+    "zoomFactor": 0.5468750000000058,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -176,14 +176,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
       "layer": "",
       "name": "itemTrash",
       "persistentUuid": "86c3f637-865d-4596-a391-1aef54471812",
-      "width": 0,
-      "x": 739,
-      "y": 1185,
+      "width": 60,
+      "x": 752,
+      "y": 1131,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,30 +239,32 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 330,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
       "layer": "",
       "name": "itemToy",
       "persistentUuid": "7475c71c-a233-42b8-97df-57c55232a23c",
-      "width": 0,
-      "x": 1078,
-      "y": 521,
+      "width": 77,
+      "x": 821,
+      "y": -152,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 180,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
       "layer": "",
       "name": "itemKnife",
       "persistentUuid": "c80d82d6-edaf-492a-829b-12b3f8d5b56c",
-      "width": 0,
-      "x": 783,
-      "y": 764,
+      "width": 96,
+      "x": 1149,
+      "y": 771,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -299,14 +302,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
       "layer": "",
       "name": "itemHomework",
       "persistentUuid": "61b71b26-75e5-4a95-a452-ddce05d61040",
-      "width": 0,
-      "x": 708,
-      "y": 381,
+      "width": 72,
+      "x": 1147,
+      "y": 177,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -2422,7 +2426,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite14",
+                  "image": "assets\\Items\\mainan 4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2438,20 +2442,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 12
+                        "x": 41,
+                        "y": 147
                       },
                       {
-                        "x": 51,
-                        "y": 12
+                        "x": 459,
+                        "y": 147
                       },
                       {
-                        "x": 51,
-                        "y": 40
+                        "x": 459,
+                        "y": 376
                       },
                       {
-                        "x": 7,
-                        "y": 40
+                        "x": 41,
+                        "y": 376
                       }
                     ]
                   ]
@@ -2484,7 +2488,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite8",
+                  "image": "assets\\Items\\sampah 1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2500,20 +2504,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 11
+                        "x": 68,
+                        "y": 138
                       },
                       {
-                        "x": 42,
-                        "y": 11
+                        "x": 250,
+                        "y": 138
                       },
                       {
-                        "x": 42,
-                        "y": 53
+                        "x": 250,
+                        "y": 284
                       },
                       {
-                        "x": 12,
-                        "y": 53
+                        "x": 68,
+                        "y": 284
                       }
                     ]
                   ]
@@ -2546,7 +2550,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "itemKnife",
+                  "image": "assets\\Items\\knife.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2562,20 +2566,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 24
+                        "x": 103,
+                        "y": 21
                       },
                       {
-                        "x": 51,
-                        "y": 24
+                        "x": 445,
+                        "y": 21
                       },
                       {
-                        "x": 51,
-                        "y": 38
+                        "x": 445,
+                        "y": 84
                       },
                       {
-                        "x": 6,
-                        "y": 38
+                        "x": 103,
+                        "y": 84
                       }
                     ]
                   ]
@@ -2732,7 +2736,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite17",
+                  "image": "assets\\Items\\buku.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2748,20 +2752,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 13
+                        "x": 80,
+                        "y": 93
                       },
                       {
-                        "x": 55,
-                        "y": 13
+                        "x": 420,
+                        "y": 93
                       },
                       {
-                        "x": 55,
-                        "y": 42
+                        "x": 420,
+                        "y": 407
                       },
                       {
-                        "x": 6,
-                        "y": 42
+                        "x": 80,
+                        "y": 407
                       }
                     ]
                   ]
@@ -4028,6 +4032,41 @@
                     "dialogueData.choice[3]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
+                  ]
                 }
               ],
               "events": [
@@ -4186,6 +4225,41 @@
                     "dialogueData.choice[6]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
+                  ]
                 }
               ],
               "events": [
@@ -4334,6 +4408,40 @@
                     "dialogueData.choice[8]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
+                  ]
                 }
               ],
               "events": [
@@ -4455,6 +4563,41 @@
                     "dialogueOption2",
                     "dialogueData.choice[10]",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
                   ]
                 }
               ],
@@ -4578,6 +4721,40 @@
                     "dialogueData.choice[12]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
+                  ]
                 }
               ],
               "events": [
@@ -4699,6 +4876,40 @@
                     "dialogueOption2",
                     "dialogueData.choice[14]",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
                   ]
                 }
               ],

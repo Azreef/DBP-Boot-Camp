@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4481978045410398,
+    "zoomFactor": 0.5843784410740985,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -868,7 +868,7 @@
       "persistentUuid": "0401633e-fa89-4884-a842-2a796b8ca3d9",
       "width": 0,
       "x": 945,
-      "y": -451,
+      "y": -439,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -3960,6 +3960,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Trash",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4118,6 +4119,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Toy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4782,7 +4784,6 @@
           "comment": "LEVEL 2\n0 - none\n7 - door\n8 - Telephone\n9 - Bed\n10 - Lamp\n11 - window"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4842,7 +4843,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4894,7 +4894,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "8"
                   ]
                 }
               ]
@@ -4902,7 +4902,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4954,7 +4953,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "9"
                   ]
                 }
               ]
@@ -4962,7 +4961,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5014,7 +5012,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "10"
                   ]
                 }
               ]
@@ -5022,7 +5020,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5074,7 +5071,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "11"
                   ]
                 }
               ]
@@ -5143,6 +5140,40 @@
                     "dialogueOption2",
                     "dialogueData.choice[16]",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
                   ]
                 }
               ],
@@ -5280,6 +5311,42 @@
                     "dialogueData.choice[20]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption4",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -5338,7 +5405,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5396,6 +5462,40 @@
                     "dialogueData.choice[27]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
+                  ]
                 }
               ],
               "events": [
@@ -5454,7 +5554,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Lamp",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5512,6 +5611,40 @@
                     "dialogueData.choice[22]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
+                  ]
                 }
               ],
               "events": [
@@ -5570,7 +5703,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Window",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5637,6 +5769,41 @@
                     "dialogueOption3",
                     "dialogueData.choice[25]",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
                   ]
                 }
               ],
