@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 85,
   "disableInputWhenNotFocused": true,
   "mangledName": "Fail_32Screen",
   "name": "Fail Screen",
-  "r": 209,
+  "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 85,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.4789341884535245,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,8 +32,8 @@
       "name": "retryButton",
       "persistentUuid": "ac073926-c840-4e5a-b2f0-07b7aabad2d0",
       "width": 0,
-      "x": 551,
-      "y": 403,
+      "x": 814,
+      "y": 390,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,8 +48,8 @@
       "name": "NewBBText",
       "persistentUuid": "8f435cb5-7eba-493a-b28e-34879155c429",
       "width": 1023,
-      "x": 131,
-      "y": 126,
+      "x": 129,
+      "y": 61,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,9 +63,24 @@
       "name": "returnMenuButton",
       "persistentUuid": "052088a6-260e-40f7-866b-665ef70b3d1e",
       "width": 0,
-      "x": 552,
-      "y": 581,
+      "x": 819,
+      "y": 565,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Adli_Dikejar",
+      "persistentUuid": "a999ab6c-c57f-43b5-a804-74582682e7ec",
+      "width": 0,
+      "x": 208,
+      "y": 176,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -214,10 +229,71 @@
         "fontSize": 80,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "Arial",
+        "fontFamily": "JandaManateeSolid.ttf",
         "align": "left",
         "wordWrap": true
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Adli_Dikejar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "_964d0de3-24e4-48de-8f85-8ba0063b9fbc-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 56
+                      },
+                      {
+                        "x": 464,
+                        "y": 56
+                      },
+                      {
+                        "x": 464,
+                        "y": 491
+                      },
+                      {
+                        "x": 4,
+                        "y": 491
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -366,6 +442,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
