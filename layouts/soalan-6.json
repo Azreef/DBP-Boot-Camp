@@ -1294,6 +1294,33 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "35b0d544cc7171415e6794d517a75d7f61eccfe6678ef4d5e2400f4be300f233_Ukulele Song.aac",
+            "yes",
+            "30",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

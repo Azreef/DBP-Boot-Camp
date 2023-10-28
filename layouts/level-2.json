@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5468750000000054,
+    "zoomFactor": 0.43357743047024144,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3404,6 +3404,31 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "currentLevel",
+            "=",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
         {
@@ -4839,7 +4864,6 @@
           "comment": "LEVEL 2\n0 - none\n7 - door\n8 - Telephone\n9 - Bed\n10 - Lamp\n11 - window"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4893,13 +4917,24 @@
                     "=",
                     "7"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sound\\Effect\\pop up.mp3",
+                    "",
+                    "50",
+                    ""
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4953,13 +4988,24 @@
                     "=",
                     "8"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sound\\Effect\\pop up.mp3",
+                    "",
+                    "50",
+                    ""
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5013,13 +5059,24 @@
                     "=",
                     "9"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sound\\Effect\\pop up.mp3",
+                    "",
+                    "50",
+                    ""
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5073,13 +5130,24 @@
                     "=",
                     "10"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sound\\Effect\\pop up.mp3",
+                    "",
+                    "50",
+                    ""
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5132,6 +5200,18 @@
                     "isInteracting",
                     "=",
                     "11"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sound\\Effect\\pop up.mp3",
+                    "",
+                    "50",
+                    ""
                   ]
                 }
               ]
@@ -5278,6 +5358,18 @@
                         "isInteracting",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sound\\Effect\\correct.mp3",
+                        "",
+                        "60",
+                        ""
                       ]
                     }
                   ]
@@ -5995,6 +6087,27 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sound\\Effect\\correct.mp3",
+                        "",
+                        "60",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "NewLight",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -6020,6 +6133,18 @@
                         "isInteracting",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sound\\Effect\\lose.mp3",
+                        "",
+                        "60",
+                        ""
                       ]
                     }
                   ]
@@ -6181,6 +6306,18 @@
                         "+",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sound\\Effect\\correct.mp3",
+                        "",
+                        "60",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -6207,6 +6344,18 @@
                         "=",
                         "0"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sound\\Effect\\lose.mp3",
+                        "",
+                        "60",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -6232,6 +6381,18 @@
                         "isInteracting",
                         "=",
                         "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sound\\Effect\\lose.mp3",
+                        "",
+                        "60",
+                        ""
                       ]
                     }
                   ]
@@ -6594,7 +6755,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pencuri Mechanic",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6765,6 +6925,119 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Sprite"
+          },
+          "parameters": [
+            "adli",
+            "=",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Sound\\Effect\\footstep03.ogg",
+            "",
+            "10",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Sprite"
+          },
+          "parameters": [
+            "adli",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Sound\\Effect\\footstep04.ogg",
+            "",
+            "10",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneJustResumed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Sound\\Music\\level 2.mp3",
+            "yes",
+            "30",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

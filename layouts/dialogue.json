@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5843784410740959,
+    "zoomFactor": 0.49508400737489144,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -864,10 +864,10 @@
                     "y": 485.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 264,
+                    "y": 488.5
                   },
                   "customCollisionMask": [
                     [
@@ -902,7 +902,7 @@
       "name": "rara",
       "tags": "",
       "type": "Sprite",
-      "updateIfNotVisible": false,
+      "updateIfNotVisible": true,
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -912,18 +912,18 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite12",
+                  "image": "assets\\Rara\\RARARARARA1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 317,
+                    "y": 323
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -934,20 +934,572 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 8
+                        "x": 160,
+                        "y": 80
                       },
                       {
-                        "x": 47,
-                        "y": 8
+                        "x": 480,
+                        "y": 80
                       },
                       {
-                        "x": 47,
-                        "y": 64
+                        "x": 480,
+                        "y": 590
                       },
                       {
-                        "x": 13,
-                        "y": 64
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
                       }
                     ]
                   ]
@@ -964,7 +1516,7 @@
       "name": "riri",
       "tags": "",
       "type": "Sprite",
-      "updateIfNotVisible": false,
+      "updateIfNotVisible": true,
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -974,18 +1526,18 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.16,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite13",
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 316,
+                    "y": 318
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -996,20 +1548,236 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 5
+                        "x": 150,
+                        "y": 40
                       },
                       {
-                        "x": 52,
-                        "y": 5
+                        "x": 480,
+                        "y": 40
                       },
                       {
-                        "x": 52,
-                        "y": 64
+                        "x": 480,
+                        "y": 590
                       },
                       {
-                        "x": 16,
-                        "y": 64
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
                       }
                     ]
                   ]
@@ -2034,6 +2802,17 @@
                 "libraryBackground",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "rara",
+                "Animation",
+                "=",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -2429,8 +3208,8 @@
               "parameters": [
                 "",
                 "adli",
-                "charPos2.CenterX()",
-                "charPos2.CenterY()",
+                "charPos3.CenterX()",
+                "charPos3.CenterY()",
                 ""
               ]
             },
@@ -2668,8 +3447,8 @@
               "parameters": [
                 "",
                 "adli",
-                "charPos2.CenterX()",
-                "charPos2.CenterY()",
+                "charPos3.CenterX()",
+                "charPos3.CenterY()",
                 ""
               ]
             },
@@ -3470,7 +4249,7 @@
                   "parameters": [
                     "nameText",
                     "=",
-                    "\"\""
+                    "\"Penjual piza\""
                   ]
                 },
                 {
@@ -3914,7 +4693,7 @@
                   "parameters": [
                     "nameText",
                     "=",
-                    "\"\""
+                    "\"Polis\""
                   ]
                 },
                 {
@@ -5374,6 +6153,43 @@
                   "parameters": [
                     "currentText",
                     "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "nameText",
+                    "=",
+                    "\"Bapa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "dialogueText",
+                    "=",
+                    "dialogueData.ibubapa[4]"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
                     "3"
                   ]
                 }
@@ -5406,43 +6222,6 @@
                     "",
                     "\"Dialogue\"",
                     ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "currentText",
-                    "=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "nameText",
-                    "=",
-                    "\"Bapa\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "dialogueText",
-                    "=",
-                    "dialogueData.ibubapa[4]"
                   ]
                 }
               ]
@@ -5546,7 +6325,7 @@
                   "parameters": [
                     "currentText",
                     "=",
-                    "3"
+                    "2"
                   ]
                 }
               ],
