@@ -1043,6 +1043,105 @@
         "name": "assets\\Adli\\Adli Up\\Adli up 3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/Adli.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\Adli.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/Azhar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\Azhar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/Ibubapa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\Ibubapa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/ayahibu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\ayahibu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/azhar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\azhar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dialogue Character/pencuri.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialogue Character\\pencuri.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite21",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite22",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1193,7 +1292,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "choice",
           "persistentUuid": "b1f93394-4a5b-42a8-802e-1efd4391d42a",
           "type": "array",
@@ -1333,7 +1431,7 @@
             {
               "persistentUuid": "f357675a-fd43-4f8a-9e07-ca18d6d4cef4",
               "type": "string",
-              "value": "0"
+              "value": "Masih belum masanya."
             },
             {
               "persistentUuid": "4f06775a-26d8-4ede-b3b6-1fae4caa806d",

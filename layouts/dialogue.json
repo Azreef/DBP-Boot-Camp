@@ -71,8 +71,8 @@
       "name": "charPos1",
       "persistentUuid": "09abdc87-f987-4eed-967a-5b6719922209",
       "width": 0,
-      "x": 183,
-      "y": 324,
+      "x": 170,
+      "y": 350,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,8 +86,8 @@
       "name": "charPos2",
       "persistentUuid": "b6b7523a-6a80-4370-a8d1-1e6c751a9d60",
       "width": 0,
-      "x": 457,
-      "y": 324,
+      "x": 379,
+      "y": 352,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,8 +101,8 @@
       "name": "charPos3",
       "persistentUuid": "aeb4078f-b2df-49b9-9a76-b3003a234fe7",
       "width": 0,
-      "x": 995,
-      "y": 324,
+      "x": 1038,
+      "y": 335,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -315,12 +315,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "assets\\Dialogue Character\\azhar.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 170,
+                    "y": 432
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -331,20 +331,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 58,
-                        "y": 0
+                        "x": 340,
+                        "y": 1
                       },
                       {
-                        "x": 58,
-                        "y": 64
+                        "x": 340,
+                        "y": 862
                       },
                       {
-                        "x": 11,
-                        "y": 64
+                        "x": 1,
+                        "y": 862
                       }
                     ]
                   ]
@@ -377,12 +377,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite9",
+                  "image": "assets\\Dialogue Character\\ayahibu.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 430.5,
+                    "y": 482
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -393,20 +393,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 5
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 58,
-                        "y": 5
+                        "x": 854,
+                        "y": 1
                       },
                       {
-                        "x": 58,
-                        "y": 64
+                        "x": 854,
+                        "y": 939
                       },
                       {
-                        "x": 6,
-                        "y": 64
+                        "x": 1,
+                        "y": 939
                       }
                     ]
                   ]
@@ -439,12 +439,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite10",
+                  "image": "assets\\Dialogue Character\\Adli.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 212,
+                    "y": 386
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -455,20 +455,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 1
+                        "x": 46,
+                        "y": 33
                       },
                       {
-                        "x": 52,
-                        "y": 1
+                        "x": 361,
+                        "y": 33
                       },
                       {
-                        "x": 52,
-                        "y": 64
+                        "x": 361,
+                        "y": 749
                       },
                       {
-                        "x": 12,
-                        "y": 64
+                        "x": 46,
+                        "y": 749
                       }
                     ]
                   ]
@@ -501,12 +501,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite11",
+                  "image": "assets\\Dialogue Character\\pencuri.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 259.5,
+                    "y": 485.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -517,20 +517,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 14,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 48,
+                        "x": 522,
                         "y": 0
                       },
                       {
-                        "x": 48,
-                        "y": 64
+                        "x": 522,
+                        "y": 971
                       },
                       {
-                        "x": 14,
-                        "y": 64
+                        "x": 1,
+                        "y": 971
                       }
                     ]
                   ]
@@ -1244,6 +1244,17 @@
             },
             {
               "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "adli",
+                "Scale",
+                "=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -1256,6 +1267,17 @@
             },
             {
               "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "azhar",
+                "Scale",
+                "=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -1264,6 +1286,17 @@
                 "charPos3.CenterX()",
                 "charPos3.CenterY()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "ibubapa",
+                "Scale",
+                "=",
+                "0.5"
               ]
             }
           ],
@@ -1777,7 +1810,7 @@
       "isLocked": false,
       "name": "Technical",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
