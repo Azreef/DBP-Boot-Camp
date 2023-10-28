@@ -1098,7 +1098,18 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Soalan 5\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

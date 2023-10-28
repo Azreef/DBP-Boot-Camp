@@ -305,8 +305,8 @@
       "name": "itemHomework",
       "persistentUuid": "61b71b26-75e5-4a95-a452-ddce05d61040",
       "width": 0,
-      "x": 679,
-      "y": 378,
+      "x": 708,
+      "y": 381,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -4733,7 +4733,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Minigame\"",
+                        "\"Soalan 1\"",
                         ""
                       ]
                     }

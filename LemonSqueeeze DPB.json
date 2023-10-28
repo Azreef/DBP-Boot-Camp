@@ -1907,11 +1907,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/dialogue"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/soalan-3"
+      "referenceTo": "/layouts/soalan-1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1919,15 +1915,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/soalan-1"
+      "referenceTo": "/layouts/soalan-3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/minigame"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/soalan-6"
+      "referenceTo": "/layouts/soalan-4"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1935,7 +1927,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/soalan-4"
+      "referenceTo": "/layouts/soalan-6"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dialogue"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/minigame"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
