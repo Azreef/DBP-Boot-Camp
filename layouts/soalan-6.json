@@ -32,7 +32,7 @@
       "folded": true,
       "name": "correctAnswer",
       "type": "string",
-      "value": ""
+      "value": "tabah"
     }
   ],
   "instances": [
@@ -1272,7 +1272,28 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "currentDialogue",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Dialogue\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [

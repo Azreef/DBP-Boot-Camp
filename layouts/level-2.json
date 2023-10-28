@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_32",
-  "name": "Level ",
+  "mangledName": "Level_322",
+  "name": "Level 2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,9 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-
-    "zoomFactor": 0.4057518905943863,
-
+    "zoomFactor": 0.4481978045410398,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -45,38 +43,6 @@
       "x": 781,
       "y": 481,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 143,
-      "layer": "",
-      "name": "pencuri",
-      "persistentUuid": "755300e7-8308-43a4-894e-23cf810e67f5",
-      "width": 146,
-      "x": 925,
-      "y": 400,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 151,
-      "layer": "",
-      "name": "azhar",
-      "persistentUuid": "ba11c8cc-7434-4001-a803-12d7aa4c8342",
-      "width": 151,
-      "x": 879,
-      "y": 546,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -194,21 +160,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "itemTrash",
-      "persistentUuid": "86c3f637-865d-4596-a391-1aef54471812",
-      "width": 0,
-      "x": 906,
-      "y": 246,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 42,
@@ -257,81 +208,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "itemToy",
-      "persistentUuid": "7475c71c-a233-42b8-97df-57c55232a23c",
-      "width": 0,
-      "x": 1057,
-      "y": 414,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "itemKnife",
-      "persistentUuid": "c80d82d6-edaf-492a-829b-12b3f8d5b56c",
-      "width": 0,
-      "x": 720,
-      "y": 252,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "itemTV",
-      "persistentUuid": "c9f3b7c9-4d80-4720-8e71-0564fd3e2eb7",
-      "width": 0,
-      "x": 829,
-      "y": 375,
-      "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "itemGate",
-      "persistentUuid": "c904a420-c665-4e7b-afa8-983b4e3503d6",
-      "width": 0,
-      "x": 716,
-      "y": 550,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "itemHomework",
-      "persistentUuid": "61b71b26-75e5-4a95-a452-ddce05d61040",
-      "width": 0,
-      "x": 1067,
-      "y": 563,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 2,
       "height": 725,
@@ -371,7 +247,7 @@
       "name": "mapBedroom",
       "persistentUuid": "e6aec458-4f41-4e8c-beac-3f117e742f66",
       "width": 996,
-      "x": 286,
+      "x": 284,
       "y": -495,
       "zOrder": 26,
       "numberProperties": [],
@@ -934,6 +810,96 @@
       "x": 851,
       "y": 884,
       "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "itemDoor",
+      "persistentUuid": "5860a541-2351-4d5c-a17c-9c4fb611f407",
+      "width": 0,
+      "x": 1205,
+      "y": 434,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "itemPhone",
+      "persistentUuid": "49a2029b-4eb9-4bb6-88ac-768b0c2a68e8",
+      "width": 0,
+      "x": 787,
+      "y": 67,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "itemLampSwitch",
+      "persistentUuid": "74d97d8c-b95a-4680-bd5a-9b17fe4691f4",
+      "width": 0,
+      "x": 1125,
+      "y": 25,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "itemWindow",
+      "persistentUuid": "0401633e-fa89-4884-a842-2a796b8ca3d9",
+      "width": 0,
+      "x": 945,
+      "y": -451,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "itemBed",
+      "persistentUuid": "c34d1395-6379-4f76-b001-bdb4275e6313",
+      "width": 0,
+      "x": 1108,
+      "y": -179,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "3a339c40-0bd1-4499-aece-6eaa3b594248",
+      "width": 0,
+      "x": 1197,
+      "y": 61,
+      "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1972,68 +1938,6 @@
         "g": 0,
         "r": 0
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "dialogueAzhar",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 10,
-                        "y": 0
-                      },
-                      {
-                        "x": 47,
-                        "y": 0
-                      },
-                      {
-                        "x": 47,
-                        "y": 64
-                      },
-                      {
-                        "x": 10,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -3425,6 +3329,21 @@
           "impassable": true
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 500,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "events": [
@@ -3541,7 +3460,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Item Interaction",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3559,7 +3477,6 @@
           "comment": "LEVEL 1\n0 - none\n1 - trash\n2 - toy\n3 - knife\n4 - tv\n5 - gate\n6 - homework"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4043,7 +3960,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Trash",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4127,7 +4043,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4142,7 +4069,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4157,7 +4095,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -4169,7 +4118,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Toy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4253,7 +4201,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4268,7 +4227,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4283,7 +4253,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -4295,7 +4276,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Knife",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4369,7 +4349,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4384,7 +4375,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -4396,7 +4398,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "TV",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4470,7 +4471,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4485,7 +4497,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -4497,7 +4520,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Gate",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4571,7 +4593,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4586,7 +4619,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -4598,7 +4642,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Homework",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4672,7 +4715,28 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Soalan 1\"",
+                        ""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -4687,7 +4751,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -6313,6 +6388,22 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
