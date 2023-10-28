@@ -17,10 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-
     "snap": true,
-    "zoomFactor": 1.026942587498112,
-
+    "zoomFactor": 0.49508400737489144,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -866,10 +864,10 @@
                     "y": 485.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 264,
+                    "y": 488.5
                   },
                   "customCollisionMask": [
                     [
@@ -904,7 +902,7 @@
       "name": "rara",
       "tags": "",
       "type": "Sprite",
-      "updateIfNotVisible": false,
+      "updateIfNotVisible": true,
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -914,18 +912,18 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.15,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite12",
+                  "image": "assets\\Rara\\RARARARARA1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 317,
+                    "y": 323
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -936,20 +934,572 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 8
+                        "x": 160,
+                        "y": 80
                       },
                       {
-                        "x": 47,
-                        "y": 8
+                        "x": 480,
+                        "y": 80
                       },
                       {
-                        "x": 47,
-                        "y": 64
+                        "x": 480,
+                        "y": 590
                       },
                       {
-                        "x": 13,
-                        "y": 64
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Rara\\RARARARARA8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 317,
+                    "y": 323
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 160,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 80
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 160,
+                        "y": 590
                       }
                     ]
                   ]
@@ -966,7 +1516,7 @@
       "name": "riri",
       "tags": "",
       "type": "Sprite",
-      "updateIfNotVisible": false,
+      "updateIfNotVisible": true,
       "variables": [],
       "effects": [],
       "behaviors": [],
@@ -976,18 +1526,18 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.16,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite13",
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 316,
+                    "y": 318
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -998,20 +1548,236 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 5
+                        "x": 150,
+                        "y": 40
                       },
                       {
-                        "x": 52,
-                        "y": 5
+                        "x": 480,
+                        "y": 40
                       },
                       {
-                        "x": 52,
-                        "y": 64
+                        "x": 480,
+                        "y": 590
                       },
                       {
-                        "x": 16,
-                        "y": 64
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Riri\\RRRRRIIIIIIIIII7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 316,
+                    "y": 318
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 40
+                      },
+                      {
+                        "x": 480,
+                        "y": 590
+                      },
+                      {
+                        "x": 150,
+                        "y": 590
                       }
                     ]
                   ]
@@ -2036,6 +2802,17 @@
                 "libraryBackground",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "rara",
+                "Animation",
+                "=",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -2431,8 +3208,8 @@
               "parameters": [
                 "",
                 "adli",
-                "charPos2.CenterX()",
-                "charPos2.CenterY()",
+                "charPos3.CenterX()",
+                "charPos3.CenterY()",
                 ""
               ]
             },
@@ -2670,8 +3447,8 @@
               "parameters": [
                 "",
                 "adli",
-                "charPos2.CenterX()",
-                "charPos2.CenterY()",
+                "charPos3.CenterX()",
+                "charPos3.CenterY()",
                 ""
               ]
             },
@@ -3215,7 +3992,7 @@
                   "parameters": [
                     "currentText",
                     "=",
-                    "3"
+                    "2"
                   ]
                 }
               ],
@@ -3472,7 +4249,7 @@
                   "parameters": [
                     "nameText",
                     "=",
-                    "\"\""
+                    "\"Penjual piza\""
                   ]
                 },
                 {
@@ -3483,6 +4260,31 @@
                     "dialogueText",
                     "=",
                     "dialogueData.other[1]"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ]
@@ -3609,6 +4411,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3691,7 +4518,7 @@
                   "parameters": [
                     "dialogueText",
                     "=",
-                    "dialogueData.adli[17]"
+                    "dialogueData.adli[14]"
                   ]
                 }
               ]
@@ -3718,7 +4545,7 @@
                   "parameters": [
                     "nameText",
                     "=",
-                    "dialogueData.azhar[0]"
+                    "\"Ibu\""
                   ]
                 },
                 {
@@ -3728,7 +4555,32 @@
                   "parameters": [
                     "dialogueText",
                     "=",
-                    "dialogueData.azhar[4]"
+                    "dialogueData.ibubapa[2]"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ]
@@ -3736,7 +4588,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3842,7 +4693,7 @@
                   "parameters": [
                     "nameText",
                     "=",
-                    "\"\""
+                    "\"Polis\""
                   ]
                 },
                 {
@@ -3852,7 +4703,32 @@
                   "parameters": [
                     "dialogueText",
                     "=",
-                    "dialogueData.azhar[2]"
+                    "dialogueData.other[2]"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
                   ]
                 }
               ]
@@ -3860,7 +4736,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3943,11 +4818,56 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "14"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4067,11 +4987,56 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4166,11 +5131,56 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "16"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4302,6 +5312,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "17"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4316,6 +5372,15 @@
                 "currentDialogue",
                 "=",
                 "17"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4357,6 +5422,33 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 3\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4371,6 +5463,15 @@
                 "currentDialogue",
                 "=",
                 "18"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4412,6 +5513,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4426,6 +5552,15 @@
                 "currentDialogue",
                 "=",
                 "19"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4467,6 +5602,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4481,6 +5641,15 @@
                 "currentDialogue",
                 "=",
                 "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4522,6 +5691,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4536,6 +5730,15 @@
                 "currentDialogue",
                 "=",
                 "21"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4577,6 +5780,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4591,6 +5819,15 @@
                 "currentDialogue",
                 "=",
                 "22"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4632,6 +5869,31 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PopScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4646,6 +5908,15 @@
                 "currentDialogue",
                 "=",
                 "23"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4724,6 +5995,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "24"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4738,6 +6055,15 @@
                 "currentDialogue",
                 "=",
                 "24"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4773,8 +6099,8 @@
               "parameters": [
                 "",
                 "ibubapa",
-                "charPos2.CenterX()",
-                "charPos2.CenterY()",
+                "charPos3.CenterX()",
+                "charPos3.CenterY()",
                 ""
               ]
             }
@@ -4853,6 +6179,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "27"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4867,6 +6239,15 @@
                 "currentDialogue",
                 "=",
                 "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -4933,6 +6314,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "26"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4947,6 +6374,15 @@
                 "currentDialogue",
                 "=",
                 "26"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -5038,6 +6474,52 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "hasRun",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "currentDialogue",
+                    "=",
+                    "23"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogue\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5052,6 +6534,15 @@
                 "currentDialogue",
                 "=",
                 "27"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "hasRun",
+                ""
               ]
             }
           ],
@@ -5161,6 +6652,33 @@
                     "dialogueText",
                     "=",
                     "dialogueData.riri[3]"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "currentText",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Score\"",
+                    ""
                   ]
                 }
               ]

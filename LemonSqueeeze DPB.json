@@ -1538,6 +1538,254 @@
         "name": "assets\\Items\\Talifon.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sound/Music/level 1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Music\\level 1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sound/Music/level 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Music\\level 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sound/Music/level3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Music\\level3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sound/Effect/footstep03.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Effect\\footstep03.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sound/Effect/footstep04.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Effect\\footstep04.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sound/Effect/correct.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Effect\\correct.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sound/Effect/lose.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Effect\\lose.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rara/RARARARARA8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Rara\\RARARARARA8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Riri/RRRRRIIIIIIIIII1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Riri\\RRRRRIIIIIIIIII1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Riri/RRRRRIIIIIIIIII2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Riri\\RRRRRIIIIIIIIII2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Riri/RRRRRIIIIIIIIII3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Riri\\RRRRRIIIIIIIIII3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Riri/RRRRRIIIIIIIIII4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Riri\\RRRRRIIIIIIIIII4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Riri/RRRRRIIIIIIIIII5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Riri\\RRRRRIIIIIIIIII5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Riri/RRRRRIIIIIIIIII6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Riri\\RRRRRIIIIIIIIII6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Riri/RRRRRIIIIIIIIII7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Riri\\RRRRRIIIIIIIIII7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sound/Effect/pop up.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Effect\\pop up.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/tong sampah.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\tong sampah.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Ukulele Song.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "35b0d544cc7171415e6794d517a75d7f61eccfe6678ef4d5e2400f4be300f233_Ukulele Song.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Uplifting/35b0d544cc7171415e6794d517a75d7f61eccfe6678ef4d5e2400f4be300f233_Ukulele Song.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Sound/Effect/button-124476.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sound\\Effect\\button-124476.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1556,7 +1804,6 @@
       "type": "structure",
       "children": [
         {
-          "folded": true,
           "name": "adli",
           "type": "array",
           "children": [
@@ -1685,7 +1932,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "azhar",
           "persistentUuid": "93673b10-b2d5-4d73-a6ce-8210ae9095fe",
           "type": "array",
@@ -1709,7 +1955,7 @@
             {
               "folded": true,
               "type": "string",
-              "value": "0"
+              "value": "Sebentar Adli, abang sedang mencari bantuan. Adli pergi bersembunyi dulu ya."
             },
             {
               "type": "string",
@@ -1822,7 +2068,7 @@
             {
               "persistentUuid": "9670ccf8-1089-4055-8fc3-852e6f8eeb17",
               "type": "string",
-              "value": "Kedai pizza"
+              "value": "Kedai piza"
             },
             {
               "persistentUuid": "ff79f685-a162-45eb-ab04-2f7fd9fab81a",
@@ -1946,7 +2192,7 @@
             },
             {
               "type": "string",
-              "value": "Adli menggunakan tali untuk membuat pencuri jatuh dan mengikat pencuri."
+              "value": "Adli menggunakan tali untuk membuat pencuri terjatuh."
             },
             {
               "type": "string",
@@ -1966,7 +2212,7 @@
             },
             {
               "type": "string",
-              "value": "Adli menggunakan tali untuk membuat pencuri terjatuh."
+              "value": "Pencuri itu kelihatan lemah."
             },
             {
               "type": "string",
@@ -2065,6 +2311,30 @@
           ]
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "currentLevel",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "pointBerani",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "pointBertanggungjawab",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "pointBaikHati",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
