@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4481978045410398,
+    "zoomFactor": 0.4950840073748935,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -706,13 +706,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 82,
+      "height": 164,
       "layer": "barrier",
       "name": "barier",
       "persistentUuid": "3124a703-38c8-4605-b9ea-1b8de51dedd1",
       "width": 62,
-      "x": 1275,
-      "y": 280,
+      "x": 1263,
+      "y": 384,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -816,14 +816,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 127,
       "layer": "",
       "name": "itemDoor",
       "persistentUuid": "5860a541-2351-4d5c-a17c-9c4fb611f407",
-      "width": 0,
-      "x": 1205,
-      "y": 434,
+      "width": 78,
+      "x": 1187,
+      "y": 395,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -831,14 +832,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 129,
       "layer": "",
       "name": "itemPhone",
       "persistentUuid": "49a2029b-4eb9-4bb6-88ac-768b0c2a68e8",
-      "width": 0,
-      "x": 787,
-      "y": 67,
+      "width": 129,
+      "x": 748,
+      "y": 22,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -853,7 +855,7 @@
       "persistentUuid": "74d97d8c-b95a-4680-bd5a-9b17fe4691f4",
       "width": 0,
       "x": 1125,
-      "y": 25,
+      "y": 33,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -861,14 +863,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
       "layer": "",
       "name": "itemWindow",
       "persistentUuid": "0401633e-fa89-4884-a842-2a796b8ca3d9",
-      "width": 0,
-      "x": 945,
-      "y": -451,
+      "width": 118,
+      "x": 913,
+      "y": -488,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -876,14 +879,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 108,
       "layer": "",
       "name": "itemBed",
       "persistentUuid": "c34d1395-6379-4f76-b001-bdb4275e6313",
-      "width": 0,
-      "x": 1108,
-      "y": -179,
+      "width": 108,
+      "x": 1089,
+      "y": -225,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -2764,7 +2768,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -2840,7 +2861,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite19",
+                  "image": "assets\\Items\\Talifon.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2856,20 +2877,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 13
+                        "x": 32,
+                        "y": 36
                       },
                       {
-                        "x": 53,
-                        "y": 13
+                        "x": 64,
+                        "y": 36
                       },
                       {
-                        "x": 53,
-                        "y": 57
+                        "x": 64,
+                        "y": 62
                       },
                       {
-                        "x": 4,
-                        "y": 57
+                        "x": 32,
+                        "y": 62
                       }
                     ]
                   ]
@@ -2888,7 +2909,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -2950,7 +2988,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -3026,7 +3081,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite22",
+                  "image": "assets\\Items\\widow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3042,20 +3097,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 6
+                        "x": 2,
+                        "y": 11
                       },
                       {
-                        "x": 59,
-                        "y": 6
+                        "x": 52,
+                        "y": 11
                       },
                       {
-                        "x": 59,
-                        "y": 54
+                        "x": 52,
+                        "y": 51
                       },
                       {
-                        "x": 8,
-                        "y": 54
+                        "x": 2,
+                        "y": 51
                       }
                     ]
                   ]
@@ -3960,6 +4015,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Trash",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4118,6 +4174,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Toy",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4894,7 +4951,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "8"
                   ]
                 }
               ]
@@ -4954,7 +5011,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "9"
                   ]
                 }
               ]
@@ -5014,7 +5071,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "10"
                   ]
                 }
               ]
@@ -5074,7 +5131,7 @@
                   "parameters": [
                     "isInteracting",
                     "=",
-                    "7"
+                    "11"
                   ]
                 }
               ]
@@ -5143,6 +5200,40 @@
                     "dialogueOption2",
                     "dialogueData.choice[16]",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
                   ]
                 }
               ],
@@ -5280,6 +5371,42 @@
                     "dialogueData.choice[20]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption4",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -5396,6 +5523,40 @@
                     "dialogueData.choice[27]",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
+                  ]
                 }
               ],
               "events": [
@@ -5511,6 +5672,40 @@
                     "dialogueOption2",
                     "dialogueData.choice[22]",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
                   ]
                 }
               ],
@@ -5637,6 +5832,41 @@
                     "dialogueOption3",
                     "dialogueData.choice[25]",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "dialogueOption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "dialogueOption4"
                   ]
                 }
               ],

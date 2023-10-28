@@ -1426,6 +1426,118 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
           "name": "CaveatBrush-Regular.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/bola 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\bola 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/bear.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\bear.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/baju.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\baju.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/guli.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\guli.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rope_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c3632e8289456cbc0a0da15679dae903d04af1e2d752a37ade5581543f89a29b_Rope_Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/c3632e8289456cbc0a0da15679dae903d04af1e2d752a37ade5581543f89a29b_Rope_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/bola.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\bola.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/knife.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\knife.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/sampah 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\sampah 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/buku.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\buku.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/mainan 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\mainan 4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/widow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\widow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Items/Talifon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Items\\Talifon.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1611,7 +1723,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "choice",
           "persistentUuid": "b1f93394-4a5b-42a8-802e-1efd4391d42a",
           "type": "array",
@@ -1794,7 +1905,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "narrator",
           "persistentUuid": "9e885c69-4edf-4536-b603-8c789a5abf84",
           "type": "array",
@@ -1908,7 +2018,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "rara",
           "persistentUuid": "8d9f0f05-c578-49e2-b799-0165334893b6",
           "type": "array",
@@ -1933,7 +2042,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "riri",
           "persistentUuid": "12b44c47-2c1c-4b36-8d7e-429a535e3b06",
           "type": "array",
@@ -2011,6 +2119,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/minigame-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fail-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/score"
     }
   ],
   "externalEvents": [
