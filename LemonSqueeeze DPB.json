@@ -1029,6 +1029,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "azhar",
           "persistentUuid": "93673b10-b2d5-4d73-a6ce-8210ae9095fe",
           "type": "array",
@@ -1067,6 +1068,161 @@
         },
         {
           "folded": true,
+          "name": "choice",
+          "persistentUuid": "b1f93394-4a5b-42a8-802e-1efd4391d42a",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Pilihan"
+            },
+            {
+              "type": "string",
+              "value": "Membuang sampah ke dalam tong sampah di luar rumah."
+            },
+            {
+              "type": "string",
+              "value": "Mengikat plastik sampah tersebut ​  dengan kemas."
+            },
+            {
+              "persistentUuid": "faccc229-07f5-416f-a7f2-02b6d50f382f",
+              "type": "string",
+              "value": "Membiarkan sampah tersebut begitu ​  Sahaja."
+            },
+            {
+              "persistentUuid": "11ac3956-414f-4960-88a6-35d844d39cfc",
+              "type": "string",
+              "value": " Simpan semula mainan tersebut."
+            },
+            {
+              "persistentUuid": "e29a9d8c-e0c6-4ab5-aa45-16d522fc7e97",
+              "type": "string",
+              "value": "Main seorang diri."
+            },
+            {
+              "persistentUuid": "d4ea5b39-9bb4-42f7-ac4f-d6662f02751b",
+              "type": "string",
+              "value": "Mengajak abangnya untuk bermain bersama-sama.​"
+            },
+            {
+              "persistentUuid": "8eddd8a7-62ac-4527-8afc-1e98775adcb1",
+              "type": "string",
+              "value": "Mengambil dan bermain dengan pisau tersebut."
+            },
+            {
+              "persistentUuid": "0f88c869-80b0-4f76-83cd-07c5a9cc87d6",
+              "type": "string",
+              "value": "Mengambil pisau dan simpan di tempat yang sepatutnya."
+            },
+            {
+              "persistentUuid": "c48c4ce6-41b2-4699-b6a5-2a1882cba020",
+              "type": "string",
+              "value": "Menolong abangnya mencari alat kawalan jauh"
+            },
+            {
+              "persistentUuid": "a9f762ab-5ef3-4d2d-8c7f-e41f2a6b7e6e",
+              "type": "string",
+              "value": "Membiarkan sahaja dan berlalu pergi."
+            },
+            {
+              "persistentUuid": "8f2c2821-7c25-4c46-9819-cb7b2e9ba1ea",
+              "type": "string",
+              "value": "Kunci pagar tersebut"
+            },
+            {
+              "persistentUuid": "0229f2a2-46a4-47b6-a869-8de5bc48e4e4",
+              "type": "string",
+              "value": "Keluar untuk membeli aiskrim."
+            },
+            {
+              "persistentUuid": "952fcf82-5186-4dd6-b6ed-5adf7d07e84c",
+              "type": "string",
+              "value": "Adli terus membuat kerja sekolah sehingga selesai."
+            },
+            {
+              "persistentUuid": "ebe89ccf-6b22-456a-bbfb-264bc590afac",
+              "type": "string",
+              "value": "Sambung menerokai."
+            },
+            {
+              "persistentUuid": "d6809af1-a738-43c1-81cb-581878218fa0",
+              "type": "string",
+              "value": "Mengunci pintu tersebut."
+            },
+            {
+              "persistentUuid": "a3f7aa3f-7105-44f6-850c-9d7442599cfe",
+              "type": "string",
+              "value": "Membuka pintu dan menjerit kepada pencuri itu."
+            },
+            {
+              "persistentUuid": "f9a3aba3-4ba7-44a2-9bb5-e5652ed2429a",
+              "type": "string",
+              "value": "Ibu bapanya"
+            },
+            {
+              "persistentUuid": "9a192fd4-b198-4b1f-abfa-056e2015e7d4",
+              "type": "string",
+              "value": "Polis"
+            },
+            {
+              "persistentUuid": "9670ccf8-1089-4055-8fc3-852e6f8eeb17",
+              "type": "string",
+              "value": "Kedai pizza"
+            },
+            {
+              "persistentUuid": "ff79f685-a162-45eb-ab04-2f7fd9fab81a",
+              "type": "string",
+              "value": "Abangnya Azhar"
+            },
+            {
+              "persistentUuid": "e4f3a0db-51b1-40e2-b97a-9c03635c2b03",
+              "type": "string",
+              "value": "Tutup Lampu"
+            },
+            {
+              "persistentUuid": "196c9b56-1615-4050-b385-5bd9b7c0759f",
+              "type": "string",
+              "value": "Membiarkan lampu terbuka."
+            },
+            {
+              "persistentUuid": "9fa3e284-977d-4cf1-ba20-34d4f68b034a",
+              "type": "string",
+              "value": "Menutup langsir"
+            },
+            {
+              "persistentUuid": "46d8adf8-b21c-48e8-8788-29a894471b72",
+              "type": "string",
+              "value": "Membuka tingkap"
+            },
+            {
+              "persistentUuid": "c6984e7c-7c11-4306-abb6-372410f46f77",
+              "type": "string",
+              "value": "Membiarkan langsir dan tingkap terbuka"
+            },
+            {
+              "persistentUuid": "ac3464ea-c242-45b0-b4ad-664def24848f",
+              "type": "string",
+              "value": "Bersembunyi di bawah katil"
+            },
+            {
+              "persistentUuid": "f357675a-fd43-4f8a-9e07-ca18d6d4cef4",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "persistentUuid": "4f06775a-26d8-4ede-b3b6-1fae4caa806d",
+              "type": "string",
+              "value": "0"
+            },
+            {
+              "persistentUuid": "d9d52cf0-f6d0-47b9-867f-2f484d7c65cd",
+              "type": "string",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "folded": true,
           "name": "ibubapa",
           "persistentUuid": "5fec818e-2477-400a-861f-58beb79b787e",
           "type": "array",
@@ -1082,18 +1238,27 @@
           ]
         },
         {
-          "folded": true,
-          "name": "other",
-          "persistentUuid": "be401e96-9915-47d0-a2bd-8676b596a775",
+          "name": "narrator",
+          "persistentUuid": "9e885c69-4edf-4536-b603-8c789a5abf84",
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": ""
+              "value": "Narrator"
             },
             {
               "type": "string",
-              "value": "0"
+              "value": "Semasa mereka menonton televisyen, Adli terlihat kelibat seorang lelaki yang mencurigakan di luar tingkap rumah jiran mereka."
+            },
+            {
+              "persistentUuid": "ef40a8e1-9877-4897-b694-cd1b800308cf",
+              "type": "string",
+              "value": "Tidak lama kemudian, pencuri itu menuju ke rumah Adli. "
+            },
+            {
+              "persistentUuid": "498dfb1a-03dc-420e-b8ab-b32df226b328",
+              "type": "string",
+              "value": "Pencuri itu cuba untuk memasuki rumah Adli."
             }
           ]
         },
