@@ -1685,7 +1685,6 @@
           ]
         },
         {
-          "folded": true,
           "name": "azhar",
           "persistentUuid": "93673b10-b2d5-4d73-a6ce-8210ae9095fe",
           "type": "array",
@@ -1709,7 +1708,7 @@
             {
               "folded": true,
               "type": "string",
-              "value": "0"
+              "value": "Sebentar Adli, abang sedang mencari bantuan. Adli pergi bersembunyi dulu ya."
             },
             {
               "type": "string",
@@ -1946,7 +1945,7 @@
             },
             {
               "type": "string",
-              "value": "Adli menggunakan tali untuk membuat pencuri jatuh dan mengikat pencuri."
+              "value": "Pencuri itu kelihatan lemah."
             },
             {
               "type": "string",
@@ -2065,6 +2064,24 @@
           ]
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "pointBerani",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "pointBertanggungjawab",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "pointBaikHati",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

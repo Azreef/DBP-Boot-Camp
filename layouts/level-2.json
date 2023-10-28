@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4950840073748935,
+    "zoomFactor": 0.5468750000000054,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -5143,7 +5143,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Door",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5235,6 +5234,15 @@
                   "parameters": [
                     "dialogueOption4"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemDoor",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -5251,7 +5259,28 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "pointBerani",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5266,22 +5295,28 @@
                       ]
                     }
                   ],
-                  "actions": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                  "actions": [
                     {
                       "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                        "value": "Scene"
                       },
                       "parameters": [
-                        "dialogueOption3",
+                        "",
+                        "\"Fail Screen\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
                     }
-                  ],
-                  "actions": []
+                  ]
                 }
               ]
             }
@@ -5293,7 +5328,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Phone",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5407,6 +5441,15 @@
                     "dialogueOption4",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemPhone",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -5423,7 +5466,47 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "pointBerani",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "currentDialogue",
+                        "=",
+                        "11"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Dialogue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5438,7 +5521,47 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "pointBerani",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "currentDialogue",
+                        "=",
+                        "12"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Dialogue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5453,7 +5576,92 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "currentDialogue",
+                        "=",
+                        "9"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Dialogue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "dialogueOption4",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "pointBerani",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "currentDialogue",
+                        "=",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushScene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Dialogue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -5465,7 +5673,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5573,7 +5780,48 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "currentDialogue",
+                        "=",
+                        "13"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Dialogue\"",
+                        ""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5588,22 +5836,18 @@
                       ]
                     }
                   ],
-                  "actions": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                  "actions": [
                     {
                       "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                        "value": "ModVarScene"
                       },
                       "parameters": [
-                        "dialogueOption3",
-                        ""
+                        "isInteracting",
+                        "=",
+                        "0"
                       ]
                     }
-                  ],
-                  "actions": []
+                  ]
                 }
               ]
             }
@@ -5615,7 +5859,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Lamp",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5707,6 +5950,15 @@
                   "parameters": [
                     "dialogueOption4"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemLampSwitch",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -5723,7 +5975,28 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "pointBerani",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5738,22 +6011,18 @@
                       ]
                     }
                   ],
-                  "actions": []
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                  "actions": [
                     {
                       "type": {
-                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                        "value": "ModVarScene"
                       },
                       "parameters": [
-                        "dialogueOption3",
-                        ""
+                        "isInteracting",
+                        "=",
+                        "0"
                       ]
                     }
-                  ],
-                  "actions": []
+                  ]
                 }
               ]
             }
@@ -5765,7 +6034,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Window",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5868,6 +6136,15 @@
                   "parameters": [
                     "dialogueOption4"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemWindow",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -5884,7 +6161,28 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "pointBerani",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5899,7 +6197,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -5914,7 +6223,18 @@
                       ]
                     }
                   ],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "isInteracting",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
                 }
               ]
             }

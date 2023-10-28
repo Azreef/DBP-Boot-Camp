@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25504554733543655,
+    "zoomFactor": 0.3437520241612349,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,6 +28,12 @@
       "name": "isInteracting",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "thieftHealth",
+      "type": "number",
+      "value": 3
     }
   ],
   "instances": [
@@ -816,21 +822,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "itemBed",
-      "persistentUuid": "c34d1395-6379-4f76-b001-bdb4275e6313",
-      "width": 0,
-      "x": 1108,
-      "y": -179,
-      "zOrder": 36,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 144,
@@ -1376,9 +1367,9 @@
       "effects": [],
       "behaviors": [
         {
-          "maxSpeed": 70,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "maxSpeed": 70,
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -2909,7 +2900,24 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Adjustment",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 0,
+            "blue": 0.6,
+            "brightness": 1,
+            "contrast": 1,
+            "gamma": 1,
+            "green": 1,
+            "red": 1,
+            "saturation": 2
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -6025,6 +6033,43 @@
           "conditions": [
             {
               "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "thieftHealth",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "currentDialogue",
+                "=",
+                "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -6077,11 +6122,30 @@
                 },
                 {
                   "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemBall",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PushScene"
                   },
                   "parameters": [
                     "",
                     "\"Dialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "thieftHealth",
+                    "-",
+                    "1"
                   ]
                 }
               ]
@@ -6151,6 +6215,25 @@
                     "=",
                     "19"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemMarble",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "thieftHealth",
+                    "-",
+                    "1"
+                  ]
                 }
               ]
             }
@@ -6218,6 +6301,25 @@
                     "currentDialogue",
                     "=",
                     "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemRope",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "thieftHealth",
+                    "-",
+                    "1"
                   ]
                 }
               ]
@@ -6287,6 +6389,15 @@
                     "=",
                     "21"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemClothes",
+                    ""
+                  ]
                 }
               ]
             }
@@ -6354,6 +6465,15 @@
                     "currentDialogue",
                     "=",
                     "22"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "itemDoll",
+                    ""
                   ]
                 }
               ]
