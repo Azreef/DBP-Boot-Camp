@@ -1910,6 +1910,105 @@
         "name": "_cdccb830-a825-4c5d-8820-222e2f483c42-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_9f3658bc-084c-4525-be08-ae6a552064bf.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "_9f3658bc-084c-4525-be08-ae6a552064bf.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ADLI.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ADLI.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BudakYangBerani.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BudakYangBerani.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite23",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MULA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MULA.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "KELUAR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "KELUAR.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Penghargaan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Penghargaan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LogoJawiUTeM_blue-01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LogoJawiUTeM_blue-01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dbp-952x1024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dbp-952x1024.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "x.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TitleName.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TitleName.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2462,6 +2561,10 @@
     }
   ],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level"
