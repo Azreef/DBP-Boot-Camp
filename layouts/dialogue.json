@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5468750000000031,
+    "zoomFactor": 0.32169117647059037,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2007,7 +2007,7 @@
         "fontSize": 30,
         "visible": true,
         "color": "0;0;0",
-        "fontFamily": "..\\..\\Downloads\\janda_manatee\\JandaManateeSolid.ttf",
+        "fontFamily": "JandaManateeSolid.ttf",
         "align": "left",
         "wordWrap": true
       }
